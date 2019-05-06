@@ -1,0 +1,2229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="pvpgn"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\cmake\Modules\;CMake Files\src\;CMake Files\src\compat\;CMake Files\src\common\;CMake Files\src\win32\;CMake Files\src\bntrackd\;CMake Files\src\client\;CMake Files\src\bniutils\;CMake Files\src\bnpass\;CMake Files\src\bnetd\;CMake Files\src\d2cs\;CMake Files\src\d2dbs\;CMake Files\src\test\;CMake Files\conf\;CMake Files\conf\i18n\;CMake Files\man\;CMake Files\files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/core/Desktop/pvpgn-server"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/core/Desktop/pvpgn-server"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/core/Desktop/pvpgn-server"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/core/Desktop/pvpgn-server"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uninstall">
+				<Option working_dir="/home/core/Desktop/pvpgn-server"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/Makefile&quot;  VERBOSE=1 uninstall"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/core/Desktop/pvpgn-server"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option working_dir="/home/core/Desktop/pvpgn-server"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/core/Desktop/pvpgn-server"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="purge">
+				<Option working_dir="/home/core/Desktop/pvpgn-server"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/Makefile&quot;  VERBOSE=1 purge"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/core/Desktop/pvpgn-server"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="compat">
+				<Option output="/home/core/Desktop/pvpgn-server/src/compat/libcompat.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/core/Desktop/pvpgn-server/src/compat"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/core/Desktop/pvpgn-server"/>
+					<Add directory="/home/core/Desktop/pvpgn-server/src"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/compat/Makefile&quot;  VERBOSE=1 compat"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/compat/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/compat/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/compat/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="compat/fast">
+				<Option output="/home/core/Desktop/pvpgn-server/src/compat/libcompat.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/core/Desktop/pvpgn-server/src/compat"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/core/Desktop/pvpgn-server"/>
+					<Add directory="/home/core/Desktop/pvpgn-server/src"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/compat/Makefile&quot;  VERBOSE=1 compat/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/compat/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/compat/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/compat/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="common">
+				<Option output="/home/core/Desktop/pvpgn-server/src/common/libcommon.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/core/Desktop/pvpgn-server/src/common"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/core/Desktop/pvpgn-server"/>
+					<Add directory="/home/core/Desktop/pvpgn-server/src"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/common/Makefile&quot;  VERBOSE=1 common"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/common/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/common/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/common/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="common/fast">
+				<Option output="/home/core/Desktop/pvpgn-server/src/common/libcommon.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/core/Desktop/pvpgn-server/src/common"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/core/Desktop/pvpgn-server"/>
+					<Add directory="/home/core/Desktop/pvpgn-server/src"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/common/Makefile&quot;  VERBOSE=1 common/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/common/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/common/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/common/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="win32">
+				<Option output="/home/core/Desktop/pvpgn-server/src/win32/libwin32.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/core/Desktop/pvpgn-server/src/win32"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/core/Desktop/pvpgn-server"/>
+					<Add directory="/home/core/Desktop/pvpgn-server/src"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/win32/Makefile&quot;  VERBOSE=1 win32"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/win32/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/win32/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/win32/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="win32/fast">
+				<Option output="/home/core/Desktop/pvpgn-server/src/win32/libwin32.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/core/Desktop/pvpgn-server/src/win32"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/core/Desktop/pvpgn-server"/>
+					<Add directory="/home/core/Desktop/pvpgn-server/src"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/win32/Makefile&quot;  VERBOSE=1 win32/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/win32/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/win32/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/win32/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bntrackd">
+				<Option output="/home/core/Desktop/pvpgn-server/src/bntrackd/bntrackd" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/core/Desktop/pvpgn-server/src/bntrackd"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/core/Desktop/pvpgn-server"/>
+					<Add directory="/home/core/Desktop/pvpgn-server/src"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/bntrackd/Makefile&quot;  VERBOSE=1 bntrackd"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/bntrackd/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/bntrackd/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/bntrackd/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bntrackd/fast">
+				<Option output="/home/core/Desktop/pvpgn-server/src/bntrackd/bntrackd" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/core/Desktop/pvpgn-server/src/bntrackd"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/core/Desktop/pvpgn-server"/>
+					<Add directory="/home/core/Desktop/pvpgn-server/src"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/bntrackd/Makefile&quot;  VERBOSE=1 bntrackd/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/bntrackd/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/bntrackd/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/bntrackd/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bnchat">
+				<Option output="/home/core/Desktop/pvpgn-server/src/client/bnchat" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/core/Desktop/pvpgn-server/src/client"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/core/Desktop/pvpgn-server"/>
+					<Add directory="/home/core/Desktop/pvpgn-server/src"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/client/Makefile&quot;  VERBOSE=1 bnchat"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/client/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/client/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/client/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bnchat/fast">
+				<Option output="/home/core/Desktop/pvpgn-server/src/client/bnchat" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/core/Desktop/pvpgn-server/src/client"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/core/Desktop/pvpgn-server"/>
+					<Add directory="/home/core/Desktop/pvpgn-server/src"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/client/Makefile&quot;  VERBOSE=1 bnchat/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/client/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/client/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/client/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bnftp">
+				<Option output="/home/core/Desktop/pvpgn-server/src/client/bnftp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/core/Desktop/pvpgn-server/src/client"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/core/Desktop/pvpgn-server"/>
+					<Add directory="/home/core/Desktop/pvpgn-server/src"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/client/Makefile&quot;  VERBOSE=1 bnftp"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/client/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/client/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/client/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bnftp/fast">
+				<Option output="/home/core/Desktop/pvpgn-server/src/client/bnftp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/core/Desktop/pvpgn-server/src/client"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/core/Desktop/pvpgn-server"/>
+					<Add directory="/home/core/Desktop/pvpgn-server/src"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/client/Makefile&quot;  VERBOSE=1 bnftp/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/client/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/client/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/client/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bnbot">
+				<Option output="/home/core/Desktop/pvpgn-server/src/client/bnbot" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/core/Desktop/pvpgn-server/src/client"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/core/Desktop/pvpgn-server"/>
+					<Add directory="/home/core/Desktop/pvpgn-server/src"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/client/Makefile&quot;  VERBOSE=1 bnbot"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/client/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/client/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/client/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bnbot/fast">
+				<Option output="/home/core/Desktop/pvpgn-server/src/client/bnbot" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/core/Desktop/pvpgn-server/src/client"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/core/Desktop/pvpgn-server"/>
+					<Add directory="/home/core/Desktop/pvpgn-server/src"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/client/Makefile&quot;  VERBOSE=1 bnbot/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/client/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/client/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/client/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bnstat">
+				<Option output="/home/core/Desktop/pvpgn-server/src/client/bnstat" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/core/Desktop/pvpgn-server/src/client"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/core/Desktop/pvpgn-server"/>
+					<Add directory="/home/core/Desktop/pvpgn-server/src"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/client/Makefile&quot;  VERBOSE=1 bnstat"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/client/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/client/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/client/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bnstat/fast">
+				<Option output="/home/core/Desktop/pvpgn-server/src/client/bnstat" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/core/Desktop/pvpgn-server/src/client"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/core/Desktop/pvpgn-server"/>
+					<Add directory="/home/core/Desktop/pvpgn-server/src"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/client/Makefile&quot;  VERBOSE=1 bnstat/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/client/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/client/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/client/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bni2tga">
+				<Option output="/home/core/Desktop/pvpgn-server/src/bniutils/bni2tga" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/core/Desktop/pvpgn-server/src/bniutils"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/core/Desktop/pvpgn-server"/>
+					<Add directory="/home/core/Desktop/pvpgn-server/src"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/bniutils/Makefile&quot;  VERBOSE=1 bni2tga"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/bniutils/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/bniutils/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/bniutils/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bni2tga/fast">
+				<Option output="/home/core/Desktop/pvpgn-server/src/bniutils/bni2tga" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/core/Desktop/pvpgn-server/src/bniutils"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/core/Desktop/pvpgn-server"/>
+					<Add directory="/home/core/Desktop/pvpgn-server/src"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/bniutils/Makefile&quot;  VERBOSE=1 bni2tga/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/bniutils/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/bniutils/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/bniutils/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bnibuild">
+				<Option output="/home/core/Desktop/pvpgn-server/src/bniutils/bnibuild" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/core/Desktop/pvpgn-server/src/bniutils"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/core/Desktop/pvpgn-server"/>
+					<Add directory="/home/core/Desktop/pvpgn-server/src"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/bniutils/Makefile&quot;  VERBOSE=1 bnibuild"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/bniutils/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/bniutils/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/bniutils/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bnibuild/fast">
+				<Option output="/home/core/Desktop/pvpgn-server/src/bniutils/bnibuild" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/core/Desktop/pvpgn-server/src/bniutils"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/core/Desktop/pvpgn-server"/>
+					<Add directory="/home/core/Desktop/pvpgn-server/src"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/bniutils/Makefile&quot;  VERBOSE=1 bnibuild/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/bniutils/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/bniutils/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/bniutils/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tgainfo">
+				<Option output="/home/core/Desktop/pvpgn-server/src/bniutils/tgainfo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/core/Desktop/pvpgn-server/src/bniutils"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/core/Desktop/pvpgn-server"/>
+					<Add directory="/home/core/Desktop/pvpgn-server/src"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/bniutils/Makefile&quot;  VERBOSE=1 tgainfo"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/bniutils/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/bniutils/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/bniutils/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tgainfo/fast">
+				<Option output="/home/core/Desktop/pvpgn-server/src/bniutils/tgainfo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/core/Desktop/pvpgn-server/src/bniutils"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/core/Desktop/pvpgn-server"/>
+					<Add directory="/home/core/Desktop/pvpgn-server/src"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/bniutils/Makefile&quot;  VERBOSE=1 tgainfo/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/bniutils/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/bniutils/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/bniutils/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bnilist">
+				<Option output="/home/core/Desktop/pvpgn-server/src/bniutils/bnilist" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/core/Desktop/pvpgn-server/src/bniutils"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/core/Desktop/pvpgn-server"/>
+					<Add directory="/home/core/Desktop/pvpgn-server/src"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/bniutils/Makefile&quot;  VERBOSE=1 bnilist"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/bniutils/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/bniutils/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/bniutils/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bnilist/fast">
+				<Option output="/home/core/Desktop/pvpgn-server/src/bniutils/bnilist" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/core/Desktop/pvpgn-server/src/bniutils"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/core/Desktop/pvpgn-server"/>
+					<Add directory="/home/core/Desktop/pvpgn-server/src"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/bniutils/Makefile&quot;  VERBOSE=1 bnilist/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/bniutils/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/bniutils/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/bniutils/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bniextract">
+				<Option output="/home/core/Desktop/pvpgn-server/src/bniutils/bniextract" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/core/Desktop/pvpgn-server/src/bniutils"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/core/Desktop/pvpgn-server"/>
+					<Add directory="/home/core/Desktop/pvpgn-server/src"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/bniutils/Makefile&quot;  VERBOSE=1 bniextract"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/bniutils/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/bniutils/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/bniutils/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bniextract/fast">
+				<Option output="/home/core/Desktop/pvpgn-server/src/bniutils/bniextract" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/core/Desktop/pvpgn-server/src/bniutils"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/core/Desktop/pvpgn-server"/>
+					<Add directory="/home/core/Desktop/pvpgn-server/src"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/bniutils/Makefile&quot;  VERBOSE=1 bniextract/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/bniutils/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/bniutils/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/bniutils/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sha1hash">
+				<Option output="/home/core/Desktop/pvpgn-server/src/bnpass/sha1hash" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/core/Desktop/pvpgn-server/src/bnpass"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/core/Desktop/pvpgn-server"/>
+					<Add directory="/home/core/Desktop/pvpgn-server/src"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/bnpass/Makefile&quot;  VERBOSE=1 sha1hash"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/bnpass/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/bnpass/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/bnpass/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sha1hash/fast">
+				<Option output="/home/core/Desktop/pvpgn-server/src/bnpass/sha1hash" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/core/Desktop/pvpgn-server/src/bnpass"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/core/Desktop/pvpgn-server"/>
+					<Add directory="/home/core/Desktop/pvpgn-server/src"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/bnpass/Makefile&quot;  VERBOSE=1 sha1hash/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/bnpass/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/bnpass/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/bnpass/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bnpass">
+				<Option output="/home/core/Desktop/pvpgn-server/src/bnpass/bnpass" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/core/Desktop/pvpgn-server/src/bnpass"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/core/Desktop/pvpgn-server"/>
+					<Add directory="/home/core/Desktop/pvpgn-server/src"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/bnpass/Makefile&quot;  VERBOSE=1 bnpass"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/bnpass/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/bnpass/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/bnpass/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bnpass/fast">
+				<Option output="/home/core/Desktop/pvpgn-server/src/bnpass/bnpass" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/core/Desktop/pvpgn-server/src/bnpass"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/core/Desktop/pvpgn-server"/>
+					<Add directory="/home/core/Desktop/pvpgn-server/src"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/bnpass/Makefile&quot;  VERBOSE=1 bnpass/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/bnpass/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/bnpass/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/bnpass/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bnetd">
+				<Option output="/home/core/Desktop/pvpgn-server/src/bnetd/bnetd" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/core/Desktop/pvpgn-server/src/bnetd"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/core/Desktop/pvpgn-server"/>
+					<Add directory="/home/core/Desktop/pvpgn-server/src"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/bnetd/Makefile&quot;  VERBOSE=1 bnetd"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/bnetd/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/bnetd/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/bnetd/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bnetd/fast">
+				<Option output="/home/core/Desktop/pvpgn-server/src/bnetd/bnetd" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/core/Desktop/pvpgn-server/src/bnetd"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/core/Desktop/pvpgn-server"/>
+					<Add directory="/home/core/Desktop/pvpgn-server/src"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/bnetd/Makefile&quot;  VERBOSE=1 bnetd/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/bnetd/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/bnetd/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/bnetd/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="d2cs">
+				<Option output="/home/core/Desktop/pvpgn-server/src/d2cs/d2cs" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/core/Desktop/pvpgn-server/src/d2cs"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/core/Desktop/pvpgn-server"/>
+					<Add directory="/home/core/Desktop/pvpgn-server/src"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/d2cs/Makefile&quot;  VERBOSE=1 d2cs"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/d2cs/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/d2cs/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/d2cs/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="d2cs/fast">
+				<Option output="/home/core/Desktop/pvpgn-server/src/d2cs/d2cs" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/core/Desktop/pvpgn-server/src/d2cs"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/core/Desktop/pvpgn-server"/>
+					<Add directory="/home/core/Desktop/pvpgn-server/src"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/d2cs/Makefile&quot;  VERBOSE=1 d2cs/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/d2cs/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/d2cs/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/d2cs/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="d2dbs">
+				<Option output="/home/core/Desktop/pvpgn-server/src/d2dbs/d2dbs" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/core/Desktop/pvpgn-server/src/d2dbs"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/core/Desktop/pvpgn-server"/>
+					<Add directory="/home/core/Desktop/pvpgn-server/src"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/d2dbs/Makefile&quot;  VERBOSE=1 d2dbs"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/d2dbs/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/d2dbs/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/d2dbs/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="d2dbs/fast">
+				<Option output="/home/core/Desktop/pvpgn-server/src/d2dbs/d2dbs" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/core/Desktop/pvpgn-server/src/d2dbs"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/core/Desktop/pvpgn-server"/>
+					<Add directory="/home/core/Desktop/pvpgn-server/src"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/d2dbs/Makefile&quot;  VERBOSE=1 d2dbs/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/d2dbs/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/d2dbs/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/d2dbs/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bigint">
+				<Option output="/home/core/Desktop/pvpgn-server/src/test/bigint" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/core/Desktop/pvpgn-server/src/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/core/Desktop/pvpgn-server"/>
+					<Add directory="/home/core/Desktop/pvpgn-server/src"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/test/Makefile&quot;  VERBOSE=1 bigint"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bigint/fast">
+				<Option output="/home/core/Desktop/pvpgn-server/src/test/bigint" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/core/Desktop/pvpgn-server/src/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/core/Desktop/pvpgn-server"/>
+					<Add directory="/home/core/Desktop/pvpgn-server/src"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/test/Makefile&quot;  VERBOSE=1 bigint/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bnetsrp3_test">
+				<Option output="/home/core/Desktop/pvpgn-server/src/test/bnetsrp3_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/core/Desktop/pvpgn-server/src/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/core/Desktop/pvpgn-server"/>
+					<Add directory="/home/core/Desktop/pvpgn-server/src"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/test/Makefile&quot;  VERBOSE=1 bnetsrp3_test"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bnetsrp3_test/fast">
+				<Option output="/home/core/Desktop/pvpgn-server/src/test/bnetsrp3_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/core/Desktop/pvpgn-server/src/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/core/Desktop/pvpgn-server"/>
+					<Add directory="/home/core/Desktop/pvpgn-server/src"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/test/Makefile&quot;  VERBOSE=1 bnetsrp3_test/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/core/Desktop/pvpgn-server/src/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/account.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/account.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/account_wrap.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/account_wrap.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/adbanner.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/adbanner.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/alias_command.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/alias_command.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/anongame.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/anongame.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/anongame_gameresult.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/anongame_gameresult.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/anongame_infos.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/anongame_infos.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/anongame_maplists.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/anongame_maplists.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/anongame_wol.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/anongame_wol.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/attr.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/attrgroup.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/attrgroup.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/attrlayer.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/attrlayer.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/autoupdate.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/autoupdate.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/channel.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/channel.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/channel_conv.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/channel_conv.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/character.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/character.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/clan.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/clan.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/cmdline.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/cmdline.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/command.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/command.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/command_groups.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/command_groups.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/connection.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/connection.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/file.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/file.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/file_plain.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/file_plain.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/friends.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/friends.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/game.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/game.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/game_conv.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/game_conv.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/handle_anongame.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/handle_anongame.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/handle_apireg.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/handle_apireg.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/handle_bnet.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/handle_bnet.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/handle_bot.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/handle_bot.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/handle_d2cs.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/handle_d2cs.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/handle_file.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/handle_file.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/handle_init.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/handle_init.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/handle_irc.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/handle_irc.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/handle_irc_common.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/handle_irc_common.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/handle_telnet.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/handle_telnet.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/handle_udp.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/handle_udp.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/handle_wol.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/handle_wol.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/handle_wol_gameres.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/handle_wol_gameres.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/handle_wserv.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/handle_wserv.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/handlers.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/helpfile.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/helpfile.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/i18n.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/i18n.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/icons.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/icons.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/ipban.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/ipban.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/irc.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/irc.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/ladder.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/ladder.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/ladder_calc.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/ladder_calc.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/luafunctions.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/luafunctions.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/luainterface.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/luainterface.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/luaobjects.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/luaobjects.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/luawrapper.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/luawrapper.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/mail.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/mail.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/main.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/message.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/message.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/news.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/news.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/output.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/output.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/prefs.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/prefs.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/quota.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/realm.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/realm.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/runprog.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/runprog.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/server.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/server.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/sql_common.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/sql_common.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/sql_dbcreator.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/sql_dbcreator.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/sql_mysql.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/sql_mysql.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/sql_odbc.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/sql_odbc.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/sql_pgsql.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/sql_pgsql.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/sql_sqlite3.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/sql_sqlite3.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/storage.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/storage.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/storage_file.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/storage_file.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/storage_sql.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/storage_sql.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/support.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/support.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/team.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/team.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/tick.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/tick.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/timer.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/timer.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/topic.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/topic.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/tournament.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/tournament.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/tracker.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/tracker.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/udptest_send.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/udptest_send.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/userlog.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/userlog.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/versioncheck.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/versioncheck.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/watch.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/watch.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bniutils/bni.cpp">
+			<Option target="bnibuild"/>
+			<Option target="bniextract"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bniutils/bni.h">
+			<Option target="bnibuild"/>
+			<Option target="bniextract"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bniutils/bni2tga.cpp">
+			<Option target="bni2tga"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bniutils/bnibuild.cpp">
+			<Option target="bnibuild"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bniutils/bniextract.cpp">
+			<Option target="bniextract"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bniutils/bnilist.cpp">
+			<Option target="bnilist"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bniutils/fileio.cpp">
+			<Option target="bni2tga"/>
+			<Option target="bnibuild"/>
+			<Option target="tgainfo"/>
+			<Option target="bnilist"/>
+			<Option target="bniextract"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bniutils/fileio.h">
+			<Option target="bni2tga"/>
+			<Option target="bnibuild"/>
+			<Option target="tgainfo"/>
+			<Option target="bnilist"/>
+			<Option target="bniextract"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bniutils/tga.cpp">
+			<Option target="bnibuild"/>
+			<Option target="tgainfo"/>
+			<Option target="bnilist"/>
+			<Option target="bniextract"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bniutils/tga.h">
+			<Option target="bnibuild"/>
+			<Option target="tgainfo"/>
+			<Option target="bnilist"/>
+			<Option target="bniextract"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bniutils/tgainfo.cpp">
+			<Option target="tgainfo"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnpass/bnpass.cpp">
+			<Option target="bnpass"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnpass/sha1hash.cpp">
+			<Option target="sha1hash"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bntrackd/bntrackd.cpp">
+			<Option target="bntrackd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/client/ansi_term.h">
+			<Option target="bnchat"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/client/bnbot.cpp">
+			<Option target="bnbot"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/client/bnchat.cpp">
+			<Option target="bnchat"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/client/bnftp.cpp">
+			<Option target="bnftp"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/client/bnstat.cpp">
+			<Option target="bnstat"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/client/client.cpp">
+			<Option target="bnchat"/>
+			<Option target="bnftp"/>
+			<Option target="bnbot"/>
+			<Option target="bnstat"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/client/client.h">
+			<Option target="bnchat"/>
+			<Option target="bnftp"/>
+			<Option target="bnbot"/>
+			<Option target="bnstat"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/client/client_connect.cpp">
+			<Option target="bnchat"/>
+			<Option target="bnstat"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/client/client_connect.h">
+			<Option target="bnchat"/>
+			<Option target="bnstat"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/client/udptest.cpp">
+			<Option target="bnchat"/>
+			<Option target="bnstat"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/client/udptest.h">
+			<Option target="bnchat"/>
+			<Option target="bnstat"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/addr.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/addr.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/anongame_protocol.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/asnprintf.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/asnprintf.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/bigint.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/bigint.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/bn_type.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/bn_type.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/bnet_protocol.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/bnethash.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/bnethash.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/bnethashconv.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/bnethashconv.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/bnetsrp3.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/bnetsrp3.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/bnettime.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/bnettime.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/bot_protocol.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/conf.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/conf.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/d2char_checksum.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/d2char_checksum.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/d2char_file.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/d2cs_bnetd_protocol.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/d2cs_d2dbs_ladder.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/d2cs_d2gs_character.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/d2cs_d2gs_protocol.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/d2cs_protocol.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/d2game_protocol.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/elist.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/eventlog.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/eventlog.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/fdwatch.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/fdwatch.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/fdwatch_epoll.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/fdwatch_epoll.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/fdwatch_kqueue.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/fdwatch_kqueue.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/fdwatch_poll.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/fdwatch_poll.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/fdwatch_select.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/fdwatch_select.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/fdwbackend.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/fdwbackend.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/field_sizes.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/file_protocol.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/flags.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/format.cc">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/format.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/give_up_root_privileges.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/give_up_root_privileges.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/gui_printf.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/gui_printf.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/hash_tuple.hpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/hashtable.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/hashtable.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/hexdump.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/hexdump.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/init_protocol.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/introtate.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/irc_protocol.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/list.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/list.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/lstr.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/make_unique.hpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/network.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/network.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/packet.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/packet.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/peerchat.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/peerchat.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/proginfo.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/proginfo.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/pugiconfig.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/pugixml.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/pugixml.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/queue.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/queue.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/rcm.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/rcm.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/rlimit.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/rlimit.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/scoped_array.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/scoped_ptr.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/setup_after.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/setup_before.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/systemerror.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/systemerror.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/tag.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/tag.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/token.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/token.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/tracker.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/trans.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/trans.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/udp_protocol.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/util.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/util.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/version.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/wol_gameres_protocol.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/wolhash.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/wolhash.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/xalloc.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/xalloc.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/xstr.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/xstr.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/xstring.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/xstring.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/compat/access.h">
+			<Option target="compat"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/compat/gethostname.h">
+			<Option target="compat"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/compat/gettimeofday.cpp">
+			<Option target="compat"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/compat/gettimeofday.h">
+			<Option target="compat"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/compat/mkdir.h">
+			<Option target="compat"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/compat/mmap.cpp">
+			<Option target="compat"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/compat/mmap.h">
+			<Option target="compat"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/compat/netinet_in.h">
+			<Option target="compat"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/compat/pdir.cpp">
+			<Option target="compat"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/compat/pdir.h">
+			<Option target="compat"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/compat/pgetopt.cpp">
+			<Option target="compat"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/compat/pgetopt.h">
+			<Option target="compat"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/compat/pgetpid.h">
+			<Option target="compat"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/compat/psock.cpp">
+			<Option target="compat"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/compat/psock.h">
+			<Option target="compat"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/compat/read.h">
+			<Option target="compat"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/compat/recv.h">
+			<Option target="compat"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/compat/rename.h">
+			<Option target="compat"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/compat/send.h">
+			<Option target="compat"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/compat/socket.h">
+			<Option target="compat"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/compat/statmacros.h">
+			<Option target="compat"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/compat/stdfileno.h">
+			<Option target="compat"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/compat/strcasecmp.cpp">
+			<Option target="compat"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/compat/strcasecmp.h">
+			<Option target="compat"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/compat/strdup.cpp">
+			<Option target="compat"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/compat/strdup.h">
+			<Option target="compat"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/compat/strerror.cpp">
+			<Option target="compat"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/compat/strerror.h">
+			<Option target="compat"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/compat/strncasecmp.cpp">
+			<Option target="compat"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/compat/strncasecmp.h">
+			<Option target="compat"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/compat/strsep.cpp">
+			<Option target="compat"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/compat/strsep.h">
+			<Option target="compat"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/compat/termios.h">
+			<Option target="compat"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/compat/uname.cpp">
+			<Option target="compat"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/compat/uname.h">
+			<Option target="compat"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/d2cs/bit.h">
+			<Option target="d2cs"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/d2cs/bnetd.cpp">
+			<Option target="d2cs"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/d2cs/bnetd.h">
+			<Option target="d2cs"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/d2cs/cmdline.cpp">
+			<Option target="d2cs"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/d2cs/cmdline.h">
+			<Option target="d2cs"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/d2cs/connection.cpp">
+			<Option target="d2cs"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/d2cs/connection.h">
+			<Option target="d2cs"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/d2cs/d2charfile.cpp">
+			<Option target="d2cs"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/d2cs/d2charfile.h">
+			<Option target="d2cs"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/d2cs/d2charlist.cpp">
+			<Option target="d2cs"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/d2cs/d2charlist.h">
+			<Option target="d2cs"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/d2cs/d2gs.cpp">
+			<Option target="d2cs"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/d2cs/d2gs.h">
+			<Option target="d2cs"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/d2cs/d2ladder.cpp">
+			<Option target="d2cs"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/d2cs/d2ladder.h">
+			<Option target="d2cs"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/d2cs/game.cpp">
+			<Option target="d2cs"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/d2cs/game.h">
+			<Option target="d2cs"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/d2cs/gamequeue.cpp">
+			<Option target="d2cs"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/d2cs/gamequeue.h">
+			<Option target="d2cs"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/d2cs/handle_bnetd.cpp">
+			<Option target="d2cs"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/d2cs/handle_bnetd.h">
+			<Option target="d2cs"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/d2cs/handle_d2cs.cpp">
+			<Option target="d2cs"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/d2cs/handle_d2cs.h">
+			<Option target="d2cs"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/d2cs/handle_d2gs.cpp">
+			<Option target="d2cs"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/d2cs/handle_d2gs.h">
+			<Option target="d2cs"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/d2cs/handle_init.cpp">
+			<Option target="d2cs"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/d2cs/handle_init.h">
+			<Option target="d2cs"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/d2cs/handle_signal.cpp">
+			<Option target="d2cs"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/d2cs/handle_signal.h">
+			<Option target="d2cs"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/d2cs/main.cpp">
+			<Option target="d2cs"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/d2cs/net.cpp">
+			<Option target="d2cs"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/d2cs/net.h">
+			<Option target="d2cs"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/d2cs/prefs.cpp">
+			<Option target="d2cs"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/d2cs/prefs.h">
+			<Option target="d2cs"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/d2cs/s2s.cpp">
+			<Option target="d2cs"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/d2cs/s2s.h">
+			<Option target="d2cs"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/d2cs/server.cpp">
+			<Option target="d2cs"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/d2cs/server.h">
+			<Option target="d2cs"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/d2cs/serverqueue.cpp">
+			<Option target="d2cs"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/d2cs/serverqueue.h">
+			<Option target="d2cs"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/d2cs/setup.h">
+			<Option target="d2cs"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/d2cs/version.h">
+			<Option target="d2cs"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/d2dbs/charlock.cpp">
+			<Option target="d2dbs"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/d2dbs/charlock.h">
+			<Option target="d2dbs"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/d2dbs/cmdline.cpp">
+			<Option target="d2dbs"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/d2dbs/cmdline.h">
+			<Option target="d2dbs"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/d2dbs/d2ladder.cpp">
+			<Option target="d2dbs"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/d2dbs/d2ladder.h">
+			<Option target="d2dbs"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/d2dbs/dbsdupecheck.cpp">
+			<Option target="d2dbs"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/d2dbs/dbsdupecheck.h">
+			<Option target="d2dbs"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/d2dbs/dbserver.cpp">
+			<Option target="d2dbs"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/d2dbs/dbserver.h">
+			<Option target="d2dbs"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/d2dbs/dbspacket.cpp">
+			<Option target="d2dbs"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/d2dbs/dbspacket.h">
+			<Option target="d2dbs"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/d2dbs/handle_signal.cpp">
+			<Option target="d2dbs"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/d2dbs/handle_signal.h">
+			<Option target="d2dbs"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/d2dbs/main.cpp">
+			<Option target="d2dbs"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/d2dbs/prefs.cpp">
+			<Option target="d2dbs"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/d2dbs/prefs.h">
+			<Option target="d2dbs"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/d2dbs/setup.h">
+			<Option target="d2dbs"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/d2dbs/version.h">
+			<Option target="d2dbs"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/json/json.hpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/test/bigint.cpp">
+			<Option target="bigint"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/test/bnetsrp3_test.cpp">
+			<Option target="bnetsrp3_test"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/win32/console_output.cpp">
+			<Option target="win32"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/win32/console_output.h">
+			<Option target="win32"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/win32/console_resource.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/win32/console_resource.rc">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/win32/d2cs_resource.h">
+			<Option target="d2cs"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/win32/d2cs_resource.rc">
+			<Option target="d2cs"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/win32/d2cs_winmain.cpp">
+			<Option target="d2cs"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/win32/d2dbs_resource.h">
+			<Option target="d2dbs"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/win32/d2dbs_resource.rc">
+			<Option target="d2dbs"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/win32/d2dbs_winmain.cpp">
+			<Option target="d2dbs"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/win32/dirent.h">
+			<Option target="win32"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/win32/service.cpp">
+			<Option target="win32"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/win32/service.h">
+			<Option target="win32"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/win32/windump.cpp">
+			<Option target="win32"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/win32/windump.h">
+			<Option target="win32"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/win32/winmain.cpp">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/win32/winmain.h">
+			<Option target="bnetd"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/ConfigureChecks.cmake">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/config.h.cmake">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/cmake/Modules/CheckMkdirArgs.cmake">
+			<Option virtualFolder="CMake Files\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/cmake/Modules/DefineInstallationPaths.cmake">
+			<Option virtualFolder="CMake Files\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/cmake/Modules/FindZLIB.cmake">
+			<Option virtualFolder="CMake Files\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/cmake/Modules/cmake_purge.cmake.in">
+			<Option virtualFolder="CMake Files\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/cmake/Modules/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/compat/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\compat\"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/common/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\common\"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/win32/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\win32\"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bntrackd/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\bntrackd\"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/client/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\client\"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bniutils/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\bniutils\"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnpass/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\bnpass\"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/bnetd/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\bnetd\"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/d2cs/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\d2cs\"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/d2dbs/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\d2dbs\"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/src/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\test\"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/conf/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\conf\"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/conf/ad.json.in">
+			<Option virtualFolder="CMake Files\conf\"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/conf/address_translation.conf.in">
+			<Option virtualFolder="CMake Files\conf\"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/conf/anongame_infos.conf.in">
+			<Option virtualFolder="CMake Files\conf\"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/conf/autoupdate.conf.in">
+			<Option virtualFolder="CMake Files\conf\"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/conf/bnalias.conf.in">
+			<Option virtualFolder="CMake Files\conf\"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/conf/bnban.conf.in">
+			<Option virtualFolder="CMake Files\conf\"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/conf/bnetd.conf.in">
+			<Option virtualFolder="CMake Files\conf\"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/conf/bnetd_default_user.plain.in">
+			<Option virtualFolder="CMake Files\conf\"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/conf/bnissue.txt.in">
+			<Option virtualFolder="CMake Files\conf\"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/conf/bnmaps.conf.in">
+			<Option virtualFolder="CMake Files\conf\"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/conf/bnxpcalc.conf.in">
+			<Option virtualFolder="CMake Files\conf\"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/conf/bnxplevel.conf.in">
+			<Option virtualFolder="CMake Files\conf\"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/conf/channel.conf.in">
+			<Option virtualFolder="CMake Files\conf\"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/conf/command_groups.conf.in">
+			<Option virtualFolder="CMake Files\conf\"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/conf/d2cs.conf.in">
+			<Option virtualFolder="CMake Files\conf\"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/conf/d2dbs.conf.in">
+			<Option virtualFolder="CMake Files\conf\"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/conf/icons.conf.in">
+			<Option virtualFolder="CMake Files\conf\"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/conf/realm.conf.in">
+			<Option virtualFolder="CMake Files\conf\"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/conf/sql_DB_layout.conf.in">
+			<Option virtualFolder="CMake Files\conf\"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/conf/supportfile.conf.in">
+			<Option virtualFolder="CMake Files\conf\"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/conf/topics.conf.in">
+			<Option virtualFolder="CMake Files\conf\"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/conf/tournament.conf.in">
+			<Option virtualFolder="CMake Files\conf\"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/conf/versioncheck.json.in">
+			<Option virtualFolder="CMake Files\conf\"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/conf/i18n/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\conf\i18n\"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/man/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\man\"/>
+		</Unit>
+		<Unit filename="/home/core/Desktop/pvpgn-server/files/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

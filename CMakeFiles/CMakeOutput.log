@@ -1,0 +1,2461 @@
+The system is: Linux - 4.18.0-15-generic - x86_64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/core/Desktop/pvpgn-server/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e8b97/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e8b97.dir/build.make CMakeFiles/cmTC_e8b97.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e8b97.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_e8b97.dir/testCXXCompiler.cxx.o -c /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_e8b97
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8b97.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_e8b97.dir/testCXXCompiler.cxx.o  -o cmTC_e8b97 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c58d8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c58d8.dir/build.make CMakeFiles/cmTC_c58d8.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c58d8.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_c58d8.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_c58d8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c58d8.dir/link.txt --verbose=1
+/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_c58d8.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_c58d8 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.4.0-1ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 7.4.0 (Ubuntu 7.4.0-1ubuntu1~18.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_c58d8' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cctRzcBb.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_c58d8 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_c58d8.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_c58d8' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_c58d8/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_c58d8.dir/build.make CMakeFiles/cmTC_c58d8.dir/build]
+  ignore line: [make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_c58d8.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_c58d8.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_c58d8]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c58d8.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_c58d8.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_c58d8 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.4.0-1ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.4.0 (Ubuntu 7.4.0-1ubuntu1~18.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_c58d8' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cctRzcBb.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_c58d8 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_c58d8.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cctRzcBb.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_c58d8] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
+    arg [CMakeFiles/cmTC_c58d8.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7] ==> [/usr/lib/gcc/x86_64-linux-gnu/7]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/7;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1z] compiler features compiled with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dc5a2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dc5a2.dir/build.make CMakeFiles/cmTC_dc5a2.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_dc5a2.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_dc5a2.dir/feature_tests.cxx.o -c /home/core/Desktop/pvpgn-server/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_dc5a2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc5a2.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_dc5a2.dir/feature_tests.cxx.o  -o cmTC_dc5a2 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ccc8d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ccc8d.dir/build.make CMakeFiles/cmTC_ccc8d.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ccc8d.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_ccc8d.dir/feature_tests.cxx.o -c /home/core/Desktop/pvpgn-server/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_ccc8d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ccc8d.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_ccc8d.dir/feature_tests.cxx.o  -o cmTC_ccc8d 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_28b26/fast"
+/usr/bin/make -f CMakeFiles/cmTC_28b26.dir/build.make CMakeFiles/cmTC_28b26.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_28b26.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_28b26.dir/feature_tests.cxx.o -c /home/core/Desktop/pvpgn-server/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_28b26
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_28b26.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_28b26.dir/feature_tests.cxx.o  -o cmTC_28b26 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a74a6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a74a6.dir/build.make CMakeFiles/cmTC_a74a6.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a74a6.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_a74a6.dir/feature_tests.cxx.o -c /home/core/Desktop/pvpgn-server/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_a74a6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a74a6.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_a74a6.dir/feature_tests.cxx.o  -o cmTC_a74a6 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/core/Desktop/pvpgn-server/CMakeFiles/3.10.2/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_29c00/fast"
+/usr/bin/make -f CMakeFiles/cmTC_29c00.dir/build.make CMakeFiles/cmTC_29c00.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_29c00.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_29c00.dir/testCCompiler.c.o   -c /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_29c00
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_29c00.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_29c00.dir/testCCompiler.c.o  -o cmTC_29c00 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_99d73/fast"
+/usr/bin/make -f CMakeFiles/cmTC_99d73.dir/build.make CMakeFiles/cmTC_99d73.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_99d73.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_99d73.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_99d73
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_99d73.dir/link.txt --verbose=1
+/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_99d73.dir/CMakeCCompilerABI.c.o  -o cmTC_99d73 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.4.0-1ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 7.4.0 (Ubuntu 7.4.0-1ubuntu1~18.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_99d73' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccoL8dIF.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_99d73 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_99d73.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_99d73' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_99d73/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_99d73.dir/build.make CMakeFiles/cmTC_99d73.dir/build]
+  ignore line: [make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_99d73.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_99d73.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_99d73]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_99d73.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_99d73.dir/CMakeCCompilerABI.c.o  -o cmTC_99d73 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.4.0-1ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.4.0 (Ubuntu 7.4.0-1ubuntu1~18.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_99d73' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccoL8dIF.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_99d73 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_99d73.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccoL8dIF.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_99d73] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
+    arg [CMakeFiles/cmTC_99d73.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7] ==> [/usr/lib/gcc/x86_64-linux-gnu/7]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/7;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_75d94/fast"
+/usr/bin/make -f CMakeFiles/cmTC_75d94.dir/build.make CMakeFiles/cmTC_75d94.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_75d94.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_75d94.dir/feature_tests.c.o   -c /home/core/Desktop/pvpgn-server/CMakeFiles/feature_tests.c
+Linking C executable cmTC_75d94
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75d94.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_75d94.dir/feature_tests.c.o  -o cmTC_75d94 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e614f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e614f.dir/build.make CMakeFiles/cmTC_e614f.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e614f.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_e614f.dir/feature_tests.c.o   -c /home/core/Desktop/pvpgn-server/CMakeFiles/feature_tests.c
+Linking C executable cmTC_e614f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e614f.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_e614f.dir/feature_tests.c.o  -o cmTC_e614f 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6a3ce/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6a3ce.dir/build.make CMakeFiles/cmTC_6a3ce.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6a3ce.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_6a3ce.dir/feature_tests.c.o   -c /home/core/Desktop/pvpgn-server/CMakeFiles/feature_tests.c
+Linking C executable cmTC_6a3ce
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a3ce.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_6a3ce.dir/feature_tests.c.o  -o cmTC_6a3ce 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the function gethostbyname exists in the nsl passed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8bedf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8bedf.dir/build.make CMakeFiles/cmTC_8bedf.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8bedf.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTC_8bedf.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8bedf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8bedf.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname    -rdynamic CMakeFiles/cmTC_8bedf.dir/CheckFunctionExists.c.o  -o cmTC_8bedf -lnsl 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+Determining if the function inet_aton exists in the resolv passed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_87b5b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_87b5b.dir/build.make CMakeFiles/cmTC_87b5b.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_87b5b.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=inet_aton   -o CMakeFiles/cmTC_87b5b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_87b5b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_87b5b.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=inet_aton    -rdynamic CMakeFiles/cmTC_87b5b.dir/CheckFunctionExists.c.o  -o cmTC_87b5b -lresolv 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file arpa/inet.h exists passed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0e898/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0e898.dir/build.make CMakeFiles/cmTC_0e898.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0e898.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_0e898.dir/CheckIncludeFile.cxx.o -c /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_0e898
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e898.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_0e898.dir/CheckIncludeFile.cxx.o  -o cmTC_0e898 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file dirent.h exists passed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_46f29/fast"
+/usr/bin/make -f CMakeFiles/cmTC_46f29.dir/build.make CMakeFiles/cmTC_46f29.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_46f29.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_46f29.dir/CheckIncludeFile.cxx.o -c /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_46f29
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46f29.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_46f29.dir/CheckIncludeFile.cxx.o  -o cmTC_46f29 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file grp.h exists passed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e0075/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e0075.dir/build.make CMakeFiles/cmTC_e0075.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e0075.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_e0075.dir/CheckIncludeFile.cxx.o -c /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_e0075
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0075.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_e0075.dir/CheckIncludeFile.cxx.o  -o cmTC_e0075 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ea0e2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ea0e2.dir/build.make CMakeFiles/cmTC_ea0e2.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ea0e2.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_ea0e2.dir/CheckIncludeFile.cxx.o -c /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_ea0e2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea0e2.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_ea0e2.dir/CheckIncludeFile.cxx.o  -o cmTC_ea0e2 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file netdb.h exists passed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_385d6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_385d6.dir/build.make CMakeFiles/cmTC_385d6.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_385d6.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_385d6.dir/CheckIncludeFile.cxx.o -c /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_385d6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_385d6.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_385d6.dir/CheckIncludeFile.cxx.o  -o cmTC_385d6 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file netinet/in.h exists passed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ebddb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ebddb.dir/build.make CMakeFiles/cmTC_ebddb.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ebddb.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_ebddb.dir/CheckIncludeFile.cxx.o -c /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_ebddb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ebddb.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_ebddb.dir/CheckIncludeFile.cxx.o  -o cmTC_ebddb 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file poll.h exists passed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_770e4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_770e4.dir/build.make CMakeFiles/cmTC_770e4.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_770e4.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_770e4.dir/CheckIncludeFile.cxx.o -c /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_770e4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_770e4.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_770e4.dir/CheckIncludeFile.cxx.o  -o cmTC_770e4 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file pwd.h exists passed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1b8a0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1b8a0.dir/build.make CMakeFiles/cmTC_1b8a0.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1b8a0.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_1b8a0.dir/CheckIncludeFile.cxx.o -c /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_1b8a0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b8a0.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_1b8a0.dir/CheckIncludeFile.cxx.o  -o cmTC_1b8a0 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/mman.h exists passed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f0292/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f0292.dir/build.make CMakeFiles/cmTC_f0292.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f0292.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_f0292.dir/CheckIncludeFile.cxx.o -c /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_f0292
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0292.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_f0292.dir/CheckIncludeFile.cxx.o  -o cmTC_f0292 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/resource.h exists passed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_64ab0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_64ab0.dir/build.make CMakeFiles/cmTC_64ab0.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_64ab0.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_64ab0.dir/CheckIncludeFile.cxx.o -c /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_64ab0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64ab0.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_64ab0.dir/CheckIncludeFile.cxx.o  -o cmTC_64ab0 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/select.h exists passed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_85f9a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_85f9a.dir/build.make CMakeFiles/cmTC_85f9a.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_85f9a.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_85f9a.dir/CheckIncludeFile.cxx.o -c /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_85f9a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_85f9a.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_85f9a.dir/CheckIncludeFile.cxx.o  -o cmTC_85f9a 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/socket.h exists passed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_015a6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_015a6.dir/build.make CMakeFiles/cmTC_015a6.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_015a6.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_015a6.dir/CheckIncludeFile.cxx.o -c /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_015a6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_015a6.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_015a6.dir/CheckIncludeFile.cxx.o  -o cmTC_015a6 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2c171/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2c171.dir/build.make CMakeFiles/cmTC_2c171.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2c171.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_2c171.dir/CheckIncludeFile.cxx.o -c /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_2c171
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c171.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_2c171.dir/CheckIncludeFile.cxx.o  -o cmTC_2c171 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/time.h exists passed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6ebb5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6ebb5.dir/build.make CMakeFiles/cmTC_6ebb5.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6ebb5.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_6ebb5.dir/CheckIncludeFile.cxx.o -c /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_6ebb5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6ebb5.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_6ebb5.dir/CheckIncludeFile.cxx.o  -o cmTC_6ebb5 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_268aa/fast"
+/usr/bin/make -f CMakeFiles/cmTC_268aa.dir/build.make CMakeFiles/cmTC_268aa.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_268aa.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_268aa.dir/CheckIncludeFile.cxx.o -c /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_268aa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_268aa.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_268aa.dir/CheckIncludeFile.cxx.o  -o cmTC_268aa 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/utsname.h exists passed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_93c7a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_93c7a.dir/build.make CMakeFiles/cmTC_93c7a.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_93c7a.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_93c7a.dir/CheckIncludeFile.cxx.o -c /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_93c7a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_93c7a.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_93c7a.dir/CheckIncludeFile.cxx.o  -o cmTC_93c7a 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/wait.h exists passed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bf38e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bf38e.dir/build.make CMakeFiles/cmTC_bf38e.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bf38e.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_bf38e.dir/CheckIncludeFile.cxx.o -c /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_bf38e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf38e.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_bf38e.dir/CheckIncludeFile.cxx.o  -o cmTC_bf38e 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file termios.h exists passed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fe537/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fe537.dir/build.make CMakeFiles/cmTC_fe537.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_fe537.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_fe537.dir/CheckIncludeFile.cxx.o -c /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_fe537
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fe537.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_fe537.dir/CheckIncludeFile.cxx.o  -o cmTC_fe537 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_36e8d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_36e8d.dir/build.make CMakeFiles/cmTC_36e8d.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_36e8d.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_36e8d.dir/CheckIncludeFile.cxx.o -c /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_36e8d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_36e8d.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_36e8d.dir/CheckIncludeFile.cxx.o  -o cmTC_36e8d 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/timeb.h exists passed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_59085/fast"
+/usr/bin/make -f CMakeFiles/cmTC_59085.dir/build.make CMakeFiles/cmTC_59085.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_59085.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_59085.dir/CheckIncludeFile.cxx.o -c /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_59085
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_59085.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_59085.dir/CheckIncludeFile.cxx.o  -o cmTC_59085 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/param.h exists passed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c69bb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c69bb.dir/build.make CMakeFiles/cmTC_c69bb.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c69bb.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_c69bb.dir/CheckIncludeFile.cxx.o -c /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_c69bb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c69bb.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_c69bb.dir/CheckIncludeFile.cxx.o  -o cmTC_c69bb 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/file.h exists passed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_055ee/fast"
+/usr/bin/make -f CMakeFiles/cmTC_055ee.dir/build.make CMakeFiles/cmTC_055ee.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_055ee.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_055ee.dir/CheckIncludeFile.cxx.o -c /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_055ee
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_055ee.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_055ee.dir/CheckIncludeFile.cxx.o  -o cmTC_055ee 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/epoll.h exists passed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_64841/fast"
+/usr/bin/make -f CMakeFiles/cmTC_64841.dir/build.make CMakeFiles/cmTC_64841.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_64841.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_64841.dir/CheckIncludeFile.cxx.o -c /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_64841
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64841.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_64841.dir/CheckIncludeFile.cxx.o  -o cmTC_64841 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/dir.h exists passed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_799dc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_799dc.dir/build.make CMakeFiles/cmTC_799dc.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_799dc.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_799dc.dir/CheckIncludeFile.cxx.o -c /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_799dc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_799dc.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_799dc.dir/CheckIncludeFile.cxx.o  -o cmTC_799dc 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/poll.h exists passed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9d6ea/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9d6ea.dir/build.make CMakeFiles/cmTC_9d6ea.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9d6ea.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_9d6ea.dir/CheckIncludeFile.cxx.o -c /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_9d6ea
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d6ea.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_9d6ea.dir/CheckIncludeFile.cxx.o  -o cmTC_9d6ea 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+Determining if the function chdir exists passed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_38de1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_38de1.dir/build.make CMakeFiles/cmTC_38de1.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_38de1.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=chdir   -o CMakeFiles/cmTC_38de1.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_38de1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_38de1.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=chdir    -rdynamic CMakeFiles/cmTC_38de1.dir/CheckFunctionExists.c.o  -o cmTC_38de1 -lnsl -lresolv 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+Determining if the function epoll_create exists passed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_81f50/fast"
+/usr/bin/make -f CMakeFiles/cmTC_81f50.dir/build.make CMakeFiles/cmTC_81f50.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_81f50.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=epoll_create   -o CMakeFiles/cmTC_81f50.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_81f50
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81f50.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=epoll_create    -rdynamic CMakeFiles/cmTC_81f50.dir/CheckFunctionExists.c.o  -o cmTC_81f50 -lnsl -lresolv 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+Determining if the function fork exists passed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9a8b2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9a8b2.dir/build.make CMakeFiles/cmTC_9a8b2.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9a8b2.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fork   -o CMakeFiles/cmTC_9a8b2.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘fork’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_9a8b2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9a8b2.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=fork    -rdynamic CMakeFiles/cmTC_9a8b2.dir/CheckFunctionExists.c.o  -o cmTC_9a8b2 -lnsl -lresolv 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+Determining if the function ftime exists passed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2051b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2051b.dir/build.make CMakeFiles/cmTC_2051b.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2051b.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=ftime   -o CMakeFiles/cmTC_2051b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2051b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2051b.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=ftime    -rdynamic CMakeFiles/cmTC_2051b.dir/CheckFunctionExists.c.o  -o cmTC_2051b -lnsl -lresolv 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+Determining if the function getgid exists passed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_41aa7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_41aa7.dir/build.make CMakeFiles/cmTC_41aa7.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_41aa7.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=getgid   -o CMakeFiles/cmTC_41aa7.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_41aa7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_41aa7.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=getgid    -rdynamic CMakeFiles/cmTC_41aa7.dir/CheckFunctionExists.c.o  -o cmTC_41aa7 -lnsl -lresolv 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+Determining if the function getgrnam exists passed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_40302/fast"
+/usr/bin/make -f CMakeFiles/cmTC_40302.dir/build.make CMakeFiles/cmTC_40302.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_40302.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=getgrnam   -o CMakeFiles/cmTC_40302.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_40302
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_40302.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=getgrnam    -rdynamic CMakeFiles/cmTC_40302.dir/CheckFunctionExists.c.o  -o cmTC_40302 -lnsl -lresolv 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+Determining if the function getlogin exists passed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_74bb3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_74bb3.dir/build.make CMakeFiles/cmTC_74bb3.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_74bb3.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=getlogin   -o CMakeFiles/cmTC_74bb3.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_74bb3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_74bb3.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=getlogin    -rdynamic CMakeFiles/cmTC_74bb3.dir/CheckFunctionExists.c.o  -o cmTC_74bb3 -lnsl -lresolv 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+Determining if the function getopt exists passed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_33d69/fast"
+/usr/bin/make -f CMakeFiles/cmTC_33d69.dir/build.make CMakeFiles/cmTC_33d69.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_33d69.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=getopt   -o CMakeFiles/cmTC_33d69.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_33d69
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_33d69.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=getopt    -rdynamic CMakeFiles/cmTC_33d69.dir/CheckFunctionExists.c.o  -o cmTC_33d69 -lnsl -lresolv 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+Determining if the function getpid exists passed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_05311/fast"
+/usr/bin/make -f CMakeFiles/cmTC_05311.dir/build.make CMakeFiles/cmTC_05311.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_05311.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=getpid   -o CMakeFiles/cmTC_05311.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_05311
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_05311.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=getpid    -rdynamic CMakeFiles/cmTC_05311.dir/CheckFunctionExists.c.o  -o cmTC_05311 -lnsl -lresolv 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+Determining if the function getpwnam exists passed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ea4d9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ea4d9.dir/build.make CMakeFiles/cmTC_ea4d9.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ea4d9.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=getpwnam   -o CMakeFiles/cmTC_ea4d9.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ea4d9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea4d9.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=getpwnam    -rdynamic CMakeFiles/cmTC_ea4d9.dir/CheckFunctionExists.c.o  -o cmTC_ea4d9 -lnsl -lresolv 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+Determining if the function getrlimit exists passed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ff3e4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ff3e4.dir/build.make CMakeFiles/cmTC_ff3e4.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ff3e4.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=getrlimit   -o CMakeFiles/cmTC_ff3e4.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ff3e4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ff3e4.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=getrlimit    -rdynamic CMakeFiles/cmTC_ff3e4.dir/CheckFunctionExists.c.o  -o cmTC_ff3e4 -lnsl -lresolv 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gettimeofday exists passed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a609a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a609a.dir/build.make CMakeFiles/cmTC_a609a.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a609a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gettimeofday   -o CMakeFiles/cmTC_a609a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a609a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a609a.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gettimeofday    -rdynamic CMakeFiles/cmTC_a609a.dir/CheckFunctionExists.c.o  -o cmTC_a609a -lnsl -lresolv 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+Determining if the function getuid exists passed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1b79e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1b79e.dir/build.make CMakeFiles/cmTC_1b79e.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1b79e.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=getuid   -o CMakeFiles/cmTC_1b79e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1b79e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b79e.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=getuid    -rdynamic CMakeFiles/cmTC_1b79e.dir/CheckFunctionExists.c.o  -o cmTC_1b79e -lnsl -lresolv 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+Determining if the function ioctl exists passed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_81e63/fast"
+/usr/bin/make -f CMakeFiles/cmTC_81e63.dir/build.make CMakeFiles/cmTC_81e63.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_81e63.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=ioctl   -o CMakeFiles/cmTC_81e63.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_81e63
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81e63.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=ioctl    -rdynamic CMakeFiles/cmTC_81e63.dir/CheckFunctionExists.c.o  -o cmTC_81e63 -lnsl -lresolv 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+Determining if the function mkdir exists passed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_25411/fast"
+/usr/bin/make -f CMakeFiles/cmTC_25411.dir/build.make CMakeFiles/cmTC_25411.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_25411.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=mkdir   -o CMakeFiles/cmTC_25411.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_25411
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25411.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=mkdir    -rdynamic CMakeFiles/cmTC_25411.dir/CheckFunctionExists.c.o  -o cmTC_25411 -lnsl -lresolv 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+Determining if the function mmap exists passed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5eabf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5eabf.dir/build.make CMakeFiles/cmTC_5eabf.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5eabf.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=mmap   -o CMakeFiles/cmTC_5eabf.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5eabf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5eabf.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=mmap    -rdynamic CMakeFiles/cmTC_5eabf.dir/CheckFunctionExists.c.o  -o cmTC_5eabf -lnsl -lresolv 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pipe exists passed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f1070/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f1070.dir/build.make CMakeFiles/cmTC_f1070.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f1070.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pipe   -o CMakeFiles/cmTC_f1070.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f1070
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f1070.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pipe    -rdynamic CMakeFiles/cmTC_f1070.dir/CheckFunctionExists.c.o  -o cmTC_f1070 -lnsl -lresolv 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+Determining if the function poll exists passed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ba011/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ba011.dir/build.make CMakeFiles/cmTC_ba011.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ba011.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=poll   -o CMakeFiles/cmTC_ba011.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ba011
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba011.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=poll    -rdynamic CMakeFiles/cmTC_ba011.dir/CheckFunctionExists.c.o  -o cmTC_ba011 -lnsl -lresolv 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+Determining if the function setitimer exists passed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_141f0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_141f0.dir/build.make CMakeFiles/cmTC_141f0.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_141f0.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=setitimer   -o CMakeFiles/cmTC_141f0.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_141f0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_141f0.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=setitimer    -rdynamic CMakeFiles/cmTC_141f0.dir/CheckFunctionExists.c.o  -o cmTC_141f0 -lnsl -lresolv 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+Determining if the function setpgid exists passed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_544d1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_544d1.dir/build.make CMakeFiles/cmTC_544d1.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_544d1.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=setpgid   -o CMakeFiles/cmTC_544d1.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_544d1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_544d1.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=setpgid    -rdynamic CMakeFiles/cmTC_544d1.dir/CheckFunctionExists.c.o  -o cmTC_544d1 -lnsl -lresolv 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+Determining if the function setpgrp exists passed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_eb1f0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_eb1f0.dir/build.make CMakeFiles/cmTC_eb1f0.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_eb1f0.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=setpgrp   -o CMakeFiles/cmTC_eb1f0.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_eb1f0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb1f0.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=setpgrp    -rdynamic CMakeFiles/cmTC_eb1f0.dir/CheckFunctionExists.c.o  -o cmTC_eb1f0 -lnsl -lresolv 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+Determining if the function setsid exists passed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b6ade/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b6ade.dir/build.make CMakeFiles/cmTC_b6ade.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b6ade.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=setsid   -o CMakeFiles/cmTC_b6ade.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b6ade
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6ade.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=setsid    -rdynamic CMakeFiles/cmTC_b6ade.dir/CheckFunctionExists.c.o  -o cmTC_b6ade -lnsl -lresolv 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+Determining if the function setuid exists passed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c3ae9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c3ae9.dir/build.make CMakeFiles/cmTC_c3ae9.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c3ae9.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=setuid   -o CMakeFiles/cmTC_c3ae9.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c3ae9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3ae9.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=setuid    -rdynamic CMakeFiles/cmTC_c3ae9.dir/CheckFunctionExists.c.o  -o cmTC_c3ae9 -lnsl -lresolv 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+Determining if the function sigaction exists passed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_73f29/fast"
+/usr/bin/make -f CMakeFiles/cmTC_73f29.dir/build.make CMakeFiles/cmTC_73f29.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_73f29.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sigaction   -o CMakeFiles/cmTC_73f29.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_73f29
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73f29.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sigaction    -rdynamic CMakeFiles/cmTC_73f29.dir/CheckFunctionExists.c.o  -o cmTC_73f29 -lnsl -lresolv 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+Determining if the function sigaddset exists passed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4f26a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4f26a.dir/build.make CMakeFiles/cmTC_4f26a.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4f26a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sigaddset   -o CMakeFiles/cmTC_4f26a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4f26a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4f26a.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sigaddset    -rdynamic CMakeFiles/cmTC_4f26a.dir/CheckFunctionExists.c.o  -o cmTC_4f26a -lnsl -lresolv 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+Determining if the function sigprocmask exists passed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f51bf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f51bf.dir/build.make CMakeFiles/cmTC_f51bf.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f51bf.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sigprocmask   -o CMakeFiles/cmTC_f51bf.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f51bf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f51bf.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sigprocmask    -rdynamic CMakeFiles/cmTC_f51bf.dir/CheckFunctionExists.c.o  -o cmTC_f51bf -lnsl -lresolv 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strcasecmp exists passed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dddbc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dddbc.dir/build.make CMakeFiles/cmTC_dddbc.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dddbc.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strcasecmp   -o CMakeFiles/cmTC_dddbc.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘strcasecmp’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_dddbc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dddbc.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strcasecmp    -rdynamic CMakeFiles/cmTC_dddbc.dir/CheckFunctionExists.c.o  -o cmTC_dddbc -lnsl -lresolv 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strdup exists passed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_651f5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_651f5.dir/build.make CMakeFiles/cmTC_651f5.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_651f5.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strdup   -o CMakeFiles/cmTC_651f5.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘strdup’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_651f5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_651f5.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strdup    -rdynamic CMakeFiles/cmTC_651f5.dir/CheckFunctionExists.c.o  -o cmTC_651f5 -lnsl -lresolv 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strncasecmp exists passed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4fa6c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4fa6c.dir/build.make CMakeFiles/cmTC_4fa6c.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4fa6c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strncasecmp   -o CMakeFiles/cmTC_4fa6c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘strncasecmp’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_4fa6c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4fa6c.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strncasecmp    -rdynamic CMakeFiles/cmTC_4fa6c.dir/CheckFunctionExists.c.o  -o cmTC_4fa6c -lnsl -lresolv 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strsep exists passed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1e1b7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1e1b7.dir/build.make CMakeFiles/cmTC_1e1b7.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1e1b7.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strsep   -o CMakeFiles/cmTC_1e1b7.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1e1b7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e1b7.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strsep    -rdynamic CMakeFiles/cmTC_1e1b7.dir/CheckFunctionExists.c.o  -o cmTC_1e1b7 -lnsl -lresolv 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+Determining if the function uname exists passed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_552be/fast"
+/usr/bin/make -f CMakeFiles/cmTC_552be.dir/build.make CMakeFiles/cmTC_552be.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_552be.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=uname   -o CMakeFiles/cmTC_552be.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_552be
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_552be.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=uname    -rdynamic CMakeFiles/cmTC_552be.dir/CheckFunctionExists.c.o  -o cmTC_552be -lnsl -lresolv 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+Determining if the function wait exists passed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_03978/fast"
+/usr/bin/make -f CMakeFiles/cmTC_03978.dir/build.make CMakeFiles/cmTC_03978.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_03978.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=wait   -o CMakeFiles/cmTC_03978.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_03978
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_03978.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=wait    -rdynamic CMakeFiles/cmTC_03978.dir/CheckFunctionExists.c.o  -o cmTC_03978 -lnsl -lresolv 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+Determining if the function waitpid exists passed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4349f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4349f.dir/build.make CMakeFiles/cmTC_4349f.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4349f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=waitpid   -o CMakeFiles/cmTC_4349f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4349f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4349f.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=waitpid    -rdynamic CMakeFiles/cmTC_4349f.dir/CheckFunctionExists.c.o  -o cmTC_4349f -lnsl -lresolv 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+Performing C++ SOURCE FILE Test HAVE_MAKE_UNIQUE succeeded with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_51795/fast"
+/usr/bin/make -f CMakeFiles/cmTC_51795.dir/build.make CMakeFiles/cmTC_51795.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_51795.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_MAKE_UNIQUE   -o CMakeFiles/cmTC_51795.dir/src.cxx.o -c /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_51795
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_51795.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAVE_MAKE_UNIQUE    -rdynamic CMakeFiles/cmTC_51795.dir/src.cxx.o  -o cmTC_51795 -lnsl -lresolv 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <memory>
+int main() {
+	auto foo = std::make_unique<int>(1);
+	return 0;
+}
+
+Determining if the function gethostname exists passed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f0436/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f0436.dir/build.make CMakeFiles/cmTC_f0436.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f0436.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostname   -o CMakeFiles/cmTC_f0436.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f0436
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0436.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostname    -rdynamic CMakeFiles/cmTC_f0436.dir/CheckFunctionExists.c.o  -o cmTC_f0436 -lnsl -lresolv 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+Determining if the function select exists passed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_03516/fast"
+/usr/bin/make -f CMakeFiles/cmTC_03516.dir/build.make CMakeFiles/cmTC_03516.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_03516.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=select   -o CMakeFiles/cmTC_03516.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_03516
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_03516.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=select    -rdynamic CMakeFiles/cmTC_03516.dir/CheckFunctionExists.c.o  -o cmTC_03516 -lnsl -lresolv 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+Determining if the function socket exists passed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5ff79/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5ff79.dir/build.make CMakeFiles/cmTC_5ff79.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5ff79.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=socket   -o CMakeFiles/cmTC_5ff79.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5ff79
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5ff79.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=socket    -rdynamic CMakeFiles/cmTC_5ff79.dir/CheckFunctionExists.c.o  -o cmTC_5ff79 -lnsl -lresolv 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+Determining if the function recv exists passed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_263d4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_263d4.dir/build.make CMakeFiles/cmTC_263d4.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_263d4.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=recv   -o CMakeFiles/cmTC_263d4.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_263d4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_263d4.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=recv    -rdynamic CMakeFiles/cmTC_263d4.dir/CheckFunctionExists.c.o  -o cmTC_263d4 -lnsl -lresolv 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+Determining if the function send exists passed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8f8be/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8f8be.dir/build.make CMakeFiles/cmTC_8f8be.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8f8be.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=send   -o CMakeFiles/cmTC_8f8be.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8f8be
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f8be.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=send    -rdynamic CMakeFiles/cmTC_8f8be.dir/CheckFunctionExists.c.o  -o cmTC_8f8be -lnsl -lresolv 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+Determining if the function recvfrom exists passed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4fc92/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4fc92.dir/build.make CMakeFiles/cmTC_4fc92.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4fc92.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=recvfrom   -o CMakeFiles/cmTC_4fc92.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4fc92
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4fc92.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=recvfrom    -rdynamic CMakeFiles/cmTC_4fc92.dir/CheckFunctionExists.c.o  -o cmTC_4fc92 -lnsl -lresolv 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+Determining if the function sendto exists passed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2026f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2026f.dir/build.make CMakeFiles/cmTC_2026f.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2026f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sendto   -o CMakeFiles/cmTC_2026f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2026f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2026f.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sendto    -rdynamic CMakeFiles/cmTC_2026f.dir/CheckFunctionExists.c.o  -o cmTC_2026f -lnsl -lresolv 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gethostbyname exists passed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9d53f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9d53f.dir/build.make CMakeFiles/cmTC_9d53f.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9d53f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTC_9d53f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9d53f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d53f.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname    -rdynamic CMakeFiles/cmTC_9d53f.dir/CheckFunctionExists.c.o  -o cmTC_9d53f -lnsl -lresolv 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+Determining if the function getservbyname exists passed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e7b2f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e7b2f.dir/build.make CMakeFiles/cmTC_e7b2f.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e7b2f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=getservbyname   -o CMakeFiles/cmTC_e7b2f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e7b2f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e7b2f.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=getservbyname    -rdynamic CMakeFiles/cmTC_e7b2f.dir/CheckFunctionExists.c.o  -o cmTC_e7b2f -lnsl -lresolv 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+The system is: Linux - 4.18.0-15-generic - x86_64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/core/Desktop/pvpgn-server/CMakeFiles/3.14.2/CompilerIdCXX/a.out"
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_57315/fast 
+/usr/bin/make -f CMakeFiles/cmTC_57315.dir/build.make CMakeFiles/cmTC_57315.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_57315.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_57315.dir/testCXXCompiler.cxx.o -c /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_57315
+/home/core/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.6707.69/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_57315.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_57315.dir/testCXXCompiler.cxx.o  -o cmTC_57315 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_44f0e/fast 
+/usr/bin/make -f CMakeFiles/cmTC_44f0e.dir/build.make CMakeFiles/cmTC_44f0e.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_44f0e.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++    -v -o CMakeFiles/cmTC_44f0e.dir/CMakeCXXCompilerABI.cpp.o -c /home/core/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.6707.69/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.4.0-1ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 7.4.0 (Ubuntu 7.4.0-1ubuntu1~18.04) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_44f0e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/core/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.6707.69/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_44f0e.dir/CMakeCXXCompilerABI.cpp.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/cczvjmKM.s
+GNU C++14 (Ubuntu 7.4.0-1ubuntu1~18.04) version 7.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 7.4.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/7"
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/include/c++/7
+ /usr/include/x86_64-linux-gnu/c++/7
+ /usr/include/c++/7/backward
+ /usr/lib/gcc/x86_64-linux-gnu/7/include
+ /usr/local/include
+ /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C++14 (Ubuntu 7.4.0-1ubuntu1~18.04) version 7.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 7.4.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 3eed20556f1f27506d69be41be2e40fd
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_44f0e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_44f0e.dir/CMakeCXXCompilerABI.cpp.o /tmp/cczvjmKM.s
+GNU assembler version 2.30 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.30
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_44f0e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+Linking CXX executable cmTC_44f0e
+/home/core/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.6707.69/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_44f0e.dir/link.txt --verbose=1
+/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_44f0e.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_44f0e 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.4.0-1ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 7.4.0 (Ubuntu 7.4.0-1ubuntu1~18.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_44f0e' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccTd1YyO.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_44f0e /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_44f0e.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_44f0e' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/include/c++/7]
+    add: [/usr/include/x86_64-linux-gnu/c++/7]
+    add: [/usr/include/c++/7/backward]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/7/include]
+    add: [/usr/local/include]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/include/c++/7] ==> [/usr/include/c++/7]
+  collapse include dir [/usr/include/x86_64-linux-gnu/c++/7] ==> [/usr/include/x86_64-linux-gnu/c++/7]
+  collapse include dir [/usr/include/c++/7/backward] ==> [/usr/include/c++/7/backward]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/7/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/7/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed] ==> [/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/include/c++/7;/usr/include/x86_64-linux-gnu/c++/7;/usr/include/c++/7/backward;/usr/lib/gcc/x86_64-linux-gnu/7/include;/usr/local/include;/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_44f0e/fast ]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_44f0e.dir/build.make CMakeFiles/cmTC_44f0e.dir/build]
+  ignore line: [make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_44f0e.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++    -v -o CMakeFiles/cmTC_44f0e.dir/CMakeCXXCompilerABI.cpp.o -c /home/core/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.6707.69/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.4.0-1ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.4.0 (Ubuntu 7.4.0-1ubuntu1~18.04) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_44f0e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/7/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/core/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.6707.69/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_44f0e.dir/CMakeCXXCompilerABI.cpp.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/cczvjmKM.s]
+  ignore line: [GNU C++14 (Ubuntu 7.4.0-1ubuntu1~18.04) version 7.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 7.4.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/7"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/include/c++/7]
+  ignore line: [ /usr/include/x86_64-linux-gnu/c++/7]
+  ignore line: [ /usr/include/c++/7/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/7/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (Ubuntu 7.4.0-1ubuntu1~18.04) version 7.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 7.4.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 3eed20556f1f27506d69be41be2e40fd]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_44f0e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_44f0e.dir/CMakeCXXCompilerABI.cpp.o /tmp/cczvjmKM.s]
+  ignore line: [GNU assembler version 2.30 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.30]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_44f0e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking CXX executable cmTC_44f0e]
+  ignore line: [/home/core/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.6707.69/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_44f0e.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_44f0e.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_44f0e ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.4.0-1ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.4.0 (Ubuntu 7.4.0-1ubuntu1~18.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_44f0e' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccTd1YyO.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_44f0e /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_44f0e.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccTd1YyO.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_44f0e] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
+    arg [CMakeFiles/cmTC_44f0e.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7] ==> [/usr/lib/gcc/x86_64-linux-gnu/7]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/7;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1z] compiler features compiled with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f744d/fast 
+/usr/bin/make -f CMakeFiles/cmTC_f744d.dir/build.make CMakeFiles/cmTC_f744d.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f744d.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_f744d.dir/feature_tests.cxx.o -c /home/core/Desktop/pvpgn-server/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_f744d
+/home/core/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.6707.69/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f744d.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_f744d.dir/feature_tests.cxx.o  -o cmTC_f744d 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_feb7f/fast 
+/usr/bin/make -f CMakeFiles/cmTC_feb7f.dir/build.make CMakeFiles/cmTC_feb7f.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_feb7f.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_feb7f.dir/feature_tests.cxx.o -c /home/core/Desktop/pvpgn-server/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_feb7f
+/home/core/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.6707.69/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_feb7f.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_feb7f.dir/feature_tests.cxx.o  -o cmTC_feb7f 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2411d/fast 
+/usr/bin/make -f CMakeFiles/cmTC_2411d.dir/build.make CMakeFiles/cmTC_2411d.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2411d.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_2411d.dir/feature_tests.cxx.o -c /home/core/Desktop/pvpgn-server/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_2411d
+/home/core/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.6707.69/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2411d.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_2411d.dir/feature_tests.cxx.o  -o cmTC_2411d 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_903fa/fast 
+/usr/bin/make -f CMakeFiles/cmTC_903fa.dir/build.make CMakeFiles/cmTC_903fa.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_903fa.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_903fa.dir/feature_tests.cxx.o -c /home/core/Desktop/pvpgn-server/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_903fa
+/home/core/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.6707.69/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_903fa.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_903fa.dir/feature_tests.cxx.o  -o cmTC_903fa 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/core/Desktop/pvpgn-server/CMakeFiles/3.14.2/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9a468/fast 
+/usr/bin/make -f CMakeFiles/cmTC_9a468.dir/build.make CMakeFiles/cmTC_9a468.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9a468.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_9a468.dir/testCCompiler.c.o   -c /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_9a468
+/home/core/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.6707.69/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9a468.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_9a468.dir/testCCompiler.c.o  -o cmTC_9a468 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8337f/fast 
+/usr/bin/make -f CMakeFiles/cmTC_8337f.dir/build.make CMakeFiles/cmTC_8337f.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8337f.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_8337f.dir/CMakeCCompilerABI.c.o   -c /home/core/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.6707.69/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.4.0-1ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 7.4.0 (Ubuntu 7.4.0-1ubuntu1~18.04) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8337f.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/core/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.6707.69/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_8337f.dir/CMakeCCompilerABI.c.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccoFu768.s
+GNU C11 (Ubuntu 7.4.0-1ubuntu1~18.04) version 7.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 7.4.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/7/include
+ /usr/local/include
+ /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C11 (Ubuntu 7.4.0-1ubuntu1~18.04) version 7.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 7.4.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: ed867d3a178a50a244bc36d984e23f37
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8337f.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_8337f.dir/CMakeCCompilerABI.c.o /tmp/ccoFu768.s
+GNU assembler version 2.30 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.30
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8337f.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_8337f
+/home/core/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.6707.69/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8337f.dir/link.txt --verbose=1
+/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_8337f.dir/CMakeCCompilerABI.c.o  -o cmTC_8337f 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.4.0-1ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 7.4.0 (Ubuntu 7.4.0-1ubuntu1~18.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_8337f' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc097rE8.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_8337f /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_8337f.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_8337f' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-linux-gnu/7/include]
+    add: [/usr/local/include]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/7/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/7/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed] ==> [/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/7/include;/usr/local/include;/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_8337f/fast ]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_8337f.dir/build.make CMakeFiles/cmTC_8337f.dir/build]
+  ignore line: [make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_8337f.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_8337f.dir/CMakeCCompilerABI.c.o   -c /home/core/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.6707.69/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.4.0-1ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.4.0 (Ubuntu 7.4.0-1ubuntu1~18.04) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8337f.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/7/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/core/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.6707.69/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_8337f.dir/CMakeCCompilerABI.c.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccoFu768.s]
+  ignore line: [GNU C11 (Ubuntu 7.4.0-1ubuntu1~18.04) version 7.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 7.4.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/7/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C11 (Ubuntu 7.4.0-1ubuntu1~18.04) version 7.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 7.4.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: ed867d3a178a50a244bc36d984e23f37]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8337f.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_8337f.dir/CMakeCCompilerABI.c.o /tmp/ccoFu768.s]
+  ignore line: [GNU assembler version 2.30 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.30]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8337f.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_8337f]
+  ignore line: [/home/core/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.6707.69/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8337f.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_8337f.dir/CMakeCCompilerABI.c.o  -o cmTC_8337f ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.4.0-1ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.4.0 (Ubuntu 7.4.0-1ubuntu1~18.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_8337f' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc097rE8.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_8337f /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_8337f.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc097rE8.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_8337f] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
+    arg [CMakeFiles/cmTC_8337f.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7] ==> [/usr/lib/gcc/x86_64-linux-gnu/7]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/7;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1d948/fast 
+/usr/bin/make -f CMakeFiles/cmTC_1d948.dir/build.make CMakeFiles/cmTC_1d948.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1d948.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_1d948.dir/feature_tests.c.o   -c /home/core/Desktop/pvpgn-server/CMakeFiles/feature_tests.c
+Linking C executable cmTC_1d948
+/home/core/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.6707.69/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d948.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_1d948.dir/feature_tests.c.o  -o cmTC_1d948 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_dd6e1/fast 
+/usr/bin/make -f CMakeFiles/cmTC_dd6e1.dir/build.make CMakeFiles/cmTC_dd6e1.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dd6e1.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_dd6e1.dir/feature_tests.c.o   -c /home/core/Desktop/pvpgn-server/CMakeFiles/feature_tests.c
+Linking C executable cmTC_dd6e1
+/home/core/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.6707.69/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dd6e1.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_dd6e1.dir/feature_tests.c.o  -o cmTC_dd6e1 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c1e9c/fast 
+/usr/bin/make -f CMakeFiles/cmTC_c1e9c.dir/build.make CMakeFiles/cmTC_c1e9c.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c1e9c.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_c1e9c.dir/feature_tests.c.o   -c /home/core/Desktop/pvpgn-server/CMakeFiles/feature_tests.c
+Linking C executable cmTC_c1e9c
+/home/core/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.6707.69/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c1e9c.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_c1e9c.dir/feature_tests.c.o  -o cmTC_c1e9c 
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros

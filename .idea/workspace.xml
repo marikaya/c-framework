@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="pvpgn" targetName="bnbot" />
+      <config projectName="pvpgn" targetName="bnftp" />
+      <config projectName="pvpgn" targetName="d2cs" />
+      <config projectName="pvpgn" targetName="purge" />
+      <config projectName="pvpgn" targetName="uninstall" />
+      <config projectName="pvpgn" targetName="bniextract" />
+      <config projectName="pvpgn" targetName="bnetsrp3_test" />
+      <config projectName="pvpgn" targetName="bnibuild" />
+      <config projectName="pvpgn" targetName="bnetd" />
+      <config projectName="pvpgn" targetName="bnilist" />
+      <config projectName="pvpgn" targetName="bigint" />
+      <config projectName="pvpgn" targetName="bnpass" />
+      <config projectName="pvpgn" targetName="compat" />
+      <config projectName="pvpgn" targetName="win32" />
+      <config projectName="pvpgn" targetName="d2dbs" />
+      <config projectName="pvpgn" targetName="bntrackd" />
+      <config projectName="pvpgn" targetName="bni2tga" />
+      <config projectName="pvpgn" targetName="sha1hash" />
+      <config projectName="pvpgn" targetName="bnstat" />
+      <config projectName="pvpgn" targetName="tgainfo" />
+      <config projectName="pvpgn" targetName="bnchat" />
+      <config projectName="pvpgn" targetName="common" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Default" GENERATION_DIR="." />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d77d64ab-528b-42a9-a048-17fe1c91d86e" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/conf/i18n/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/src/d2cs/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/src/bntrackd/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/src/bniutils/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/conf/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/src/bnpass/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/src/compat/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/src/win32/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/src/common/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/src/d2dbs/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/src/client/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/man/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/src/bnetd/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/files/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/src/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/src/test/CMakeFiles/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Default" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="305">
+              <caret line="74" selection-start-line="74" selection-end-line="91" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/common/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bnetd/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="13056">
+              <caret line="544" column="26" selection-start-line="544" selection-start-column="26" selection-end-line="544" selection-end-column="26" />
+              <folding>
+                <element signature="e#14868#14911#0" expanded="true" />
+                <element signature="e#14982#15084#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bnetd/cmdline.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="936">
+              <caret line="39" column="6" selection-start-line="27" selection-start-column="8" selection-end-line="39" selection-end-column="6" />
+              <folding>
+                <element signature="e#1165#1248#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bnetd/cmdline.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3096">
+              <caret line="129" column="6" selection-start-line="129" selection-start-column="6" selection-end-line="129" selection-end-column="6" />
+              <folding>
+                <element signature="e#877#909#0" expanded="true" />
+                <element signature="e#991#1018#0" expanded="true" />
+                <element signature="e#1043#1074#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1104">
+              <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conf/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="617">
+              <caret line="33" column="17" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ConfigureChecks.cmake">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="27" selection-start-line="27" selection-end-line="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeCache.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-936" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/common/CTestTestfile.cmake">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>USİNG</find>
+      <find>iomanip</find>
+      <find>v</find>
+      <find>EVENT_TIME_FORMAT</find>
+      <find>setup</find>
+      <find>eventlog(</find>
+      <find>eventlog_get_levelname_str</find>
+      <find>config.h.</find>
+      <find>config.</find>
+      <find>&quot;config.h&quot;</find>
+      <find>config</find>
+      <find>HAVE_CONFIG_H</find>
+      <find>WITH_BNETD</find>
+      <find>time</find>
+      <find>int mai</find>
+      <find>main</find>
+      <find>json</find>
+      <find>json.hpp</find>
+      <find>CONF_FILE</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/common/eventlog.h" />
+        <option value="$PROJECT_DIR$/src/common/eventlog.cpp" />
+        <option value="$PROJECT_DIR$/src/common/d2cs_protocol.h" />
+        <option value="$PROJECT_DIR$/src/bnetd/main.cpp" />
+      </list>
+    </option>
+  </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/pvpgn-server.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="454" />
+    <option name="y" value="465" />
+    <option name="width" value="1390" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="pvpgn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pvpgn-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pvpgn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pvpgn-server" type="462c0819:PsiDirectoryNode" />
+              <item name="cmake" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pvpgn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pvpgn-server" type="462c0819:PsiDirectoryNode" />
+              <item name="conf" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="CMake Application.bnetd">
+    <configuration name="bigint" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pvpgn" TARGET_NAME="bigint" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="pvpgn" RUN_TARGET_NAME="bigint">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bnbot" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pvpgn" TARGET_NAME="bnbot" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="pvpgn" RUN_TARGET_NAME="bnbot">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bnchat" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pvpgn" TARGET_NAME="bnchat" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="pvpgn" RUN_TARGET_NAME="bnchat">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bnetd" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pvpgn" TARGET_NAME="bnetd" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="pvpgn" RUN_TARGET_NAME="bnetd">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bnetsrp3_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pvpgn" TARGET_NAME="bnetsrp3_test" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="pvpgn" RUN_TARGET_NAME="bnetsrp3_test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bnftp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pvpgn" TARGET_NAME="bnftp" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="pvpgn" RUN_TARGET_NAME="bnftp">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bni2tga" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pvpgn" TARGET_NAME="bni2tga" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="pvpgn" RUN_TARGET_NAME="bni2tga">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bnibuild" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pvpgn" TARGET_NAME="bnibuild" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="pvpgn" RUN_TARGET_NAME="bnibuild">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bniextract" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pvpgn" TARGET_NAME="bniextract" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="pvpgn" RUN_TARGET_NAME="bniextract">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bnilist" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pvpgn" TARGET_NAME="bnilist" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="pvpgn" RUN_TARGET_NAME="bnilist">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bnpass" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pvpgn" TARGET_NAME="bnpass" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="pvpgn" RUN_TARGET_NAME="bnpass">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bnstat" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pvpgn" TARGET_NAME="bnstat" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="pvpgn" RUN_TARGET_NAME="bnstat">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bntrackd" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pvpgn" TARGET_NAME="bntrackd" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="pvpgn" RUN_TARGET_NAME="bntrackd">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="common" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pvpgn" TARGET_NAME="common" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="compat" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pvpgn" TARGET_NAME="compat" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="d2cs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pvpgn" TARGET_NAME="d2cs" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="pvpgn" RUN_TARGET_NAME="d2cs">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="d2dbs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pvpgn" TARGET_NAME="d2dbs" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="pvpgn" RUN_TARGET_NAME="d2dbs">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="purge" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pvpgn" TARGET_NAME="purge" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sha1hash" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pvpgn" TARGET_NAME="sha1hash" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="pvpgn" RUN_TARGET_NAME="sha1hash">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tgainfo" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pvpgn" TARGET_NAME="tgainfo" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="pvpgn" RUN_TARGET_NAME="tgainfo">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="uninstall" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pvpgn" TARGET_NAME="uninstall" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="win32" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pvpgn" TARGET_NAME="win32" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.bigint" />
+      <item itemvalue="CMake Application.bnbot" />
+      <item itemvalue="CMake Application.bnchat" />
+      <item itemvalue="CMake Application.bnetd" />
+      <item itemvalue="CMake Application.bnetsrp3_test" />
+      <item itemvalue="CMake Application.bnftp" />
+      <item itemvalue="CMake Application.bni2tga" />
+      <item itemvalue="CMake Application.bnibuild" />
+      <item itemvalue="CMake Application.bniextract" />
+      <item itemvalue="CMake Application.bnilist" />
+      <item itemvalue="CMake Application.bnpass" />
+      <item itemvalue="CMake Application.bnstat" />
+      <item itemvalue="CMake Application.bntrackd" />
+      <item itemvalue="CMake Application.common" />
+      <item itemvalue="CMake Application.compat" />
+      <item itemvalue="CMake Application.d2cs" />
+      <item itemvalue="CMake Application.d2dbs" />
+      <item itemvalue="CMake Application.purge" />
+      <item itemvalue="CMake Application.sha1hash" />
+      <item itemvalue="CMake Application.tgainfo" />
+      <item itemvalue="CMake Application.uninstall" />
+      <item itemvalue="CMake Application.win32" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d77d64ab-528b-42a9-a048-17fe1c91d86e" name="Default Changelist" comment="" />
+      <created>1556986285068</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1556986285068</updated>
+      <workItem from="1556986286184" duration="1628000" />
+      <workItem from="1557168166954" duration="122000" />
+      <workItem from="1557168556872" duration="4377000" />
+      <workItem from="1557173361203" duration="902000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="7029000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="61" y="27" width="1859" height="1053" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20453289" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="CMake" order="11" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/common/format.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="88" column="37" lean-forward="true" selection-start-line="88" selection-start-column="37" selection-end-line="88" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/format.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-19507" />
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/7/iomanip">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="357" column="4" selection-start-line="357" selection-start-column="4" selection-end-line="357" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/setup_after.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#813#878#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/d2cs_protocol.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="224" column="5" selection-start-line="224" selection-start-column="5" selection-end-line="224" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/eventlog.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="66" column="76" selection-start-line="66" selection-start-column="76" selection-end-line="66" selection-end-column="76" />
+          <folding>
+            <element signature="e#1329#1346#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.h.cmake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="80" column="26" selection-start-line="80" selection-start-column="26" selection-end-line="80" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/version.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/setup_before.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/cmake_install.cmake">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/eventlog.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7032">
+          <caret line="293" selection-start-line="280" selection-start-column="8" selection-end-line="293" />
+          <folding>
+            <element signature="e#844#876#0" expanded="true" />
+            <element signature="e#1159#1190#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bnetd/sql_mysql.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#781#11686#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bnetd/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13056">
+          <caret line="544" column="26" selection-start-line="544" selection-start-column="26" selection-end-line="544" selection-end-column="26" />
+          <folding>
+            <element signature="e#14868#14911#0" expanded="true" />
+            <element signature="e#14982#15084#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bnetd/cmdline.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="936">
+          <caret line="39" column="6" selection-start-line="27" selection-start-column="8" selection-end-line="39" selection-end-column="6" />
+          <folding>
+            <element signature="e#1165#1248#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bnetd/cmdline.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3096">
+          <caret line="129" column="6" selection-start-line="129" selection-start-column="6" selection-end-line="129" selection-end-column="6" />
+          <folding>
+            <element signature="e#877#909#0" expanded="true" />
+            <element signature="e#991#1018#0" expanded="true" />
+            <element signature="e#1043#1074#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1104">
+          <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/CTestTestfile.cmake">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="617">
+          <caret line="33" column="17" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConfigureChecks.cmake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="27" selection-start-line="27" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeCache.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-936" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="74" selection-start-line="74" selection-end-line="91" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

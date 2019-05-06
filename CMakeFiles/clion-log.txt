@@ -1,0 +1,28 @@
+/home/core/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.6707.69/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE= -G "CodeBlocks - Unix Makefiles" /home/core/Desktop/pvpgn-server
+-- The CXX compiler identification is GNU 7.4.0
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- pvpgn is used as APPLICATION_NAME
+-- The C compiler identification is GNU 7.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Checking POSIX headers
+-- Checking optional POSIX/required SUS headers
+-- Checking FreeBSD-based headers
+-- Checking BSD headers
+-- Checking Linux headers
+-- Checking Win32 headers
+-- Checking other headers
+-- Checking for single argument mkdir MKDIR_TAKES_ONE_ARG
+-- Checking for single argument mkdir MKDIR_TAKES_ONE_ARG - not found.
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/core/Desktop/pvpgn-server

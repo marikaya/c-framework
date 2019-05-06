@@ -1,0 +1,350 @@
+Determining if the function socket exists in the socket failed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a9477/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a9477.dir/build.make CMakeFiles/cmTC_a9477.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a9477.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=socket   -o CMakeFiles/cmTC_a9477.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a9477
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a9477.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=socket    -rdynamic CMakeFiles/cmTC_a9477.dir/CheckFunctionExists.c.o  -o cmTC_a9477 -lsocket 
+/usr/bin/ld: cannot find -lsocket
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_a9477.dir/build.make:97: recipe for target 'cmTC_a9477' failed
+make[1]: *** [cmTC_a9477] Error 1
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a9477/fast' failed
+make: *** [cmTC_a9477/fast] Error 2
+
+
+Determining if the function __inet_aton exists in the bind failed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_056bc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_056bc.dir/build.make CMakeFiles/cmTC_056bc.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_056bc.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=__inet_aton   -o CMakeFiles/cmTC_056bc.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_056bc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_056bc.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=__inet_aton    -rdynamic CMakeFiles/cmTC_056bc.dir/CheckFunctionExists.c.o  -o cmTC_056bc -lbind 
+/usr/bin/ld: cannot find -lbind
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_056bc.dir/build.make:97: recipe for target 'cmTC_056bc' failed
+make[1]: *** [cmTC_056bc] Error 1
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_056bc/fast' failed
+make: *** [cmTC_056bc/fast] Error 2
+
+
+Determining if files sys/types.h;sys/event.h exist failed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ae42d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ae42d.dir/build.make CMakeFiles/cmTC_ae42d.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ae42d.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_ae42d.dir/CheckIncludeFiles.c.o   -c /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:3:10: fatal error: sys/event.h: No such file or directory
+ #include <sys/event.h>
+          ^~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_ae42d.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_ae42d.dir/CheckIncludeFiles.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_ae42d.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ae42d/fast' failed
+make: *** [cmTC_ae42d/fast] Error 2
+
+Source:
+/* */
+#include <sys/types.h>
+#include <sys/event.h>
+
+
+int main(void){return 0;}
+
+Determining if the include file windows.h exists failed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3fde2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3fde2.dir/build.make CMakeFiles/cmTC_3fde2.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3fde2.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_3fde2.dir/CheckIncludeFile.cxx.o -c /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: windows.h: No such file or directory
+ #include <windows.h>
+          ^~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_3fde2.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_3fde2.dir/CheckIncludeFile.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_3fde2.dir/CheckIncludeFile.cxx.o] Error 1
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_3fde2/fast' failed
+make: *** [cmTC_3fde2/fast] Error 2
+
+
+Determining if the include file winsock2.h exists failed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b460f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b460f.dir/build.make CMakeFiles/cmTC_b460f.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b460f.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_b460f.dir/CheckIncludeFile.cxx.o -c /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: winsock2.h: No such file or directory
+ #include <winsock2.h>
+          ^~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_b460f.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_b460f.dir/CheckIncludeFile.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_b460f.dir/CheckIncludeFile.cxx.o] Error 1
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b460f/fast' failed
+make: *** [cmTC_b460f/fast] Error 2
+
+
+Determining if the include file ws2tcpip.h exists failed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_02880/fast"
+/usr/bin/make -f CMakeFiles/cmTC_02880.dir/build.make CMakeFiles/cmTC_02880.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_02880.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_02880.dir/CheckIncludeFile.cxx.o -c /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: ws2tcpip.h: No such file or directory
+ #include <ws2tcpip.h>
+          ^~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_02880.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_02880.dir/CheckIncludeFile.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_02880.dir/CheckIncludeFile.cxx.o] Error 1
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_02880/fast' failed
+make: *** [cmTC_02880/fast] Error 2
+
+
+Determining if the include file process.h exists failed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_495a9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_495a9.dir/build.make CMakeFiles/cmTC_495a9.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_495a9.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_495a9.dir/CheckIncludeFile.cxx.o -c /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: process.h: No such file or directory
+ #include <process.h>
+          ^~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_495a9.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_495a9.dir/CheckIncludeFile.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_495a9.dir/CheckIncludeFile.cxx.o] Error 1
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_495a9/fast' failed
+make: *** [cmTC_495a9/fast] Error 2
+
+
+Determining if the include file dir.h exists failed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_faa45/fast"
+/usr/bin/make -f CMakeFiles/cmTC_faa45.dir/build.make CMakeFiles/cmTC_faa45.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_faa45.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_faa45.dir/CheckIncludeFile.cxx.o -c /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: dir.h: No such file or directory
+ #include <dir.h>
+          ^~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_faa45.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_faa45.dir/CheckIncludeFile.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_faa45.dir/CheckIncludeFile.cxx.o] Error 1
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_faa45/fast' failed
+make: *** [cmTC_faa45/fast] Error 2
+
+
+Determining if the include file direct.h exists failed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_80b31/fast"
+/usr/bin/make -f CMakeFiles/cmTC_80b31.dir/build.make CMakeFiles/cmTC_80b31.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_80b31.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_80b31.dir/CheckIncludeFile.cxx.o -c /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: direct.h: No such file or directory
+ #include <direct.h>
+          ^~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_80b31.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_80b31.dir/CheckIncludeFile.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_80b31.dir/CheckIncludeFile.cxx.o] Error 1
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_80b31/fast' failed
+make: *** [cmTC_80b31/fast] Error 2
+
+
+Determining if the include file ndir.h exists failed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9b97f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9b97f.dir/build.make CMakeFiles/cmTC_9b97f.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9b97f.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_9b97f.dir/CheckIncludeFile.cxx.o -c /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: ndir.h: No such file or directory
+ #include <ndir.h>
+          ^~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_9b97f.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_9b97f.dir/CheckIncludeFile.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_9b97f.dir/CheckIncludeFile.cxx.o] Error 1
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_9b97f/fast' failed
+make: *** [cmTC_9b97f/fast] Error 2
+
+
+Determining if the include file sys/ndir.h exists failed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_47874/fast"
+/usr/bin/make -f CMakeFiles/cmTC_47874.dir/build.make CMakeFiles/cmTC_47874.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_47874.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_47874.dir/CheckIncludeFile.cxx.o -c /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: sys/ndir.h: No such file or directory
+ #include <sys/ndir.h>
+          ^~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_47874.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_47874.dir/CheckIncludeFile.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_47874.dir/CheckIncludeFile.cxx.o] Error 1
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_47874/fast' failed
+make: *** [cmTC_47874/fast] Error 2
+
+
+Determining if the function kqueue exists failed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4db06/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4db06.dir/build.make CMakeFiles/cmTC_4db06.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4db06.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=kqueue   -o CMakeFiles/cmTC_4db06.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4db06
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4db06.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=kqueue    -rdynamic CMakeFiles/cmTC_4db06.dir/CheckFunctionExists.c.o  -o cmTC_4db06 -lnsl -lresolv 
+CMakeFiles/cmTC_4db06.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `kqueue'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_4db06.dir/build.make:97: recipe for target 'cmTC_4db06' failed
+make[1]: *** [cmTC_4db06] Error 1
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_4db06/fast' failed
+make: *** [cmTC_4db06/fast] Error 2
+
+
+Determining if the function _mkdir exists failed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a29d7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a29d7.dir/build.make CMakeFiles/cmTC_a29d7.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a29d7.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_mkdir   -o CMakeFiles/cmTC_a29d7.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a29d7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a29d7.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=_mkdir    -rdynamic CMakeFiles/cmTC_a29d7.dir/CheckFunctionExists.c.o  -o cmTC_a29d7 -lnsl -lresolv 
+CMakeFiles/cmTC_a29d7.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `_mkdir'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_a29d7.dir/build.make:97: recipe for target 'cmTC_a29d7' failed
+make[1]: *** [cmTC_a29d7] Error 1
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a29d7/fast' failed
+make: *** [cmTC_a29d7/fast] Error 2
+
+
+Determining if the function stricmp exists failed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f0460/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f0460.dir/build.make CMakeFiles/cmTC_f0460.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f0460.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=stricmp   -o CMakeFiles/cmTC_f0460.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f0460
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0460.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=stricmp    -rdynamic CMakeFiles/cmTC_f0460.dir/CheckFunctionExists.c.o  -o cmTC_f0460 -lnsl -lresolv 
+CMakeFiles/cmTC_f0460.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `stricmp'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_f0460.dir/build.make:97: recipe for target 'cmTC_f0460' failed
+make[1]: *** [cmTC_f0460] Error 1
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_f0460/fast' failed
+make: *** [cmTC_f0460/fast] Error 2
+
+
+Determining if the function strnicmp exists failed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_22779/fast"
+/usr/bin/make -f CMakeFiles/cmTC_22779.dir/build.make CMakeFiles/cmTC_22779.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_22779.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strnicmp   -o CMakeFiles/cmTC_22779.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_22779
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22779.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strnicmp    -rdynamic CMakeFiles/cmTC_22779.dir/CheckFunctionExists.c.o  -o cmTC_22779 -lnsl -lresolv 
+CMakeFiles/cmTC_22779.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `strnicmp'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_22779.dir/build.make:97: recipe for target 'cmTC_22779' failed
+make[1]: *** [cmTC_22779] Error 1
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_22779/fast' failed
+make: *** [cmTC_22779/fast] Error 2
+
+
+Determining if files  exist failed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2312b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2312b.dir/build.make CMakeFiles/cmTC_2312b.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2312b.dir/CheckMkdirArgs.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_2312b.dir/CheckMkdirArgs.cxx.o -c /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp/CheckMkdirArgs.cxx
+/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp/CheckMkdirArgs.cxx:3:9: fatal error: direct.h: No such file or directory
+ #include<direct.h>
+         ^~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_2312b.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_2312b.dir/CheckMkdirArgs.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_2312b.dir/CheckMkdirArgs.cxx.o] Error 1
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_2312b/fast' failed
+make: *** [cmTC_2312b/fast] Error 2
+
+Source:
+/* */
+
+#include<direct.h>
+int main(){mkdir("");}
+
+Determining if files  exist failed with the following output:
+Change Dir: /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_61cb1/fast 
+/usr/bin/make -f CMakeFiles/cmTC_61cb1.dir/build.make CMakeFiles/cmTC_61cb1.dir/build
+make[1]: Entering directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_61cb1.dir/CheckMkdirArgs.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_61cb1.dir/CheckMkdirArgs.cxx.o -c /home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp/CheckMkdirArgs.cxx
+/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp/CheckMkdirArgs.cxx:3:9: fatal error: direct.h: No such file or directory
+ #include<direct.h>
+         ^~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_61cb1.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_61cb1.dir/CheckMkdirArgs.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_61cb1.dir/CheckMkdirArgs.cxx.o] Error 1
+make[1]: Leaving directory '/home/core/Desktop/pvpgn-server/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_61cb1/fast' failed
+make: *** [cmTC_61cb1/fast] Error 2
+
+Source:
+/* */
+
+#include<direct.h>
+int main(){mkdir("");}
+
