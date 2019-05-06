@@ -1,0 +1,10 @@
+/home/core/CLionProjects/module/CMakeFiles/rebuild_cache.dir
+/home/core/CLionProjects/module/CMakeFiles/edit_cache.dir
+/home/core/CLionProjects/module/src/CMakeFiles/rebuild_cache.dir
+/home/core/CLionProjects/module/src/CMakeFiles/edit_cache.dir
+/home/core/CLionProjects/module/src/common/CMakeFiles/rebuild_cache.dir
+/home/core/CLionProjects/module/src/common/CMakeFiles/common.dir
+/home/core/CLionProjects/module/src/common/CMakeFiles/edit_cache.dir
+/home/core/CLionProjects/module/src/eir/CMakeFiles/rebuild_cache.dir
+/home/core/CLionProjects/module/src/eir/CMakeFiles/eir.dir
+/home/core/CLionProjects/module/src/eir/CMakeFiles/edit_cache.dir

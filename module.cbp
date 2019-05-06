@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="module"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\cmake\Modules\;CMake Files\src\;CMake Files\src\common\;CMake Files\src\eir\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/core/CLionProjects/module"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/core/CLionProjects/module/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/core/CLionProjects/module/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/core/CLionProjects/module/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/core/CLionProjects/module/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/core/CLionProjects/module"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/core/CLionProjects/module/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/core/CLionProjects/module/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/core/CLionProjects/module/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/core/CLionProjects/module/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/core/CLionProjects/module"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/core/CLionProjects/module/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/core/CLionProjects/module/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/core/CLionProjects/module/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/core/CLionProjects/module/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="common">
+				<Option output="/home/core/CLionProjects/module/src/common/libcommon.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/core/CLionProjects/module/src/common"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/core/CLionProjects/module"/>
+					<Add directory="/home/core/CLionProjects/module/src"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/core/CLionProjects/module/src/common/Makefile&quot;  VERBOSE=1 common"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/core/CLionProjects/module/src/common/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/core/CLionProjects/module/src/common/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/core/CLionProjects/module/src/common/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="common/fast">
+				<Option output="/home/core/CLionProjects/module/src/common/libcommon.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/core/CLionProjects/module/src/common"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/core/CLionProjects/module"/>
+					<Add directory="/home/core/CLionProjects/module/src"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/core/CLionProjects/module/src/common/Makefile&quot;  VERBOSE=1 common/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/core/CLionProjects/module/src/common/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/core/CLionProjects/module/src/common/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/core/CLionProjects/module/src/common/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="eir">
+				<Option output="/home/core/CLionProjects/module/src/eir/eir" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/core/CLionProjects/module/src/eir"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/core/CLionProjects/module"/>
+					<Add directory="/home/core/CLionProjects/module/src"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/core/CLionProjects/module/src/eir/Makefile&quot;  VERBOSE=1 eir"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/core/CLionProjects/module/src/eir/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/core/CLionProjects/module/src/eir/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/core/CLionProjects/module/src/eir/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="eir/fast">
+				<Option output="/home/core/CLionProjects/module/src/eir/eir" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/core/CLionProjects/module/src/eir"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/home/core/CLionProjects/module"/>
+					<Add directory="/home/core/CLionProjects/module/src"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/core/CLionProjects/module/src/eir/Makefile&quot;  VERBOSE=1 eir/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/core/CLionProjects/module/src/eir/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/core/CLionProjects/module/src/eir/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/core/CLionProjects/module/src/eir/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/core/CLionProjects/module/src/common/format.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/CLionProjects/module/src/common/format.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/CLionProjects/module/src/common/logger.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/CLionProjects/module/src/common/logger.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/CLionProjects/module/src/common/setup_after.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/CLionProjects/module/src/common/setup_before.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/core/CLionProjects/module/src/eir/eir.cpp">
+			<Option target="eir"/>
+		</Unit>
+		<Unit filename="/home/core/CLionProjects/module/src/eir/eir.h">
+			<Option target="eir"/>
+		</Unit>
+		<Unit filename="/home/core/CLionProjects/module/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/core/CLionProjects/module/ConfigureChecks.cmake">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/core/CLionProjects/module/config.h.cmake">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/core/CLionProjects/module/cmake/Modules/CheckMkdirArgs.cmake">
+			<Option virtualFolder="CMake Files\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/home/core/CLionProjects/module/cmake/Modules/DefineInstallationPaths.cmake">
+			<Option virtualFolder="CMake Files\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/home/core/CLionProjects/module/cmake/Modules/FindZLIB.cmake">
+			<Option virtualFolder="CMake Files\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/home/core/CLionProjects/module/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/home/core/CLionProjects/module/src/common/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\common\"/>
+		</Unit>
+		<Unit filename="/home/core/CLionProjects/module/src/eir/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\eir\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/core/CLionProjects/module/common/logger.h
+
+/home/core/CLionProjects/module/eir/eir.cpp
+eir.h
+/home/core/CLionProjects/module/eir/eir.h
+../common/logger.h
+/home/core/CLionProjects/module/common/logger.h
+
+/home/core/CLionProjects/module/eir/eir.h
+

@@ -1,0 +1,8 @@
+ [info ] start: i am started
+ [info ] start: i am started
+ [info ] start: i am started
+May 06 22:10:30 [info ] start: i am started
+May 06 22:12:08 [info ] start: i am started
+May 06 22:12:08 [error] start: i am started
+May 06 22:12:08 [debug] start: i am started
+May 06 22:12:08 [warn ] start: i am started

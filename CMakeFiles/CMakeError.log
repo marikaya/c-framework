@@ -1,0 +1,758 @@
+Determining if the function socket exists in the socket failed with the following output:
+Change Dir: /home/core/CLionProjects/module/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_27de7/fast 
+/usr/bin/make -f CMakeFiles/cmTC_27de7.dir/build.make CMakeFiles/cmTC_27de7.dir/build
+make[1]: Entering directory '/home/core/CLionProjects/module/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_27de7.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=socket   -std=gnu99 -o CMakeFiles/cmTC_27de7.dir/CheckFunctionExists.c.o   -c /home/core/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.6707.69/bin/cmake/linux/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_27de7
+/home/core/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.6707.69/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_27de7.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=socket    CMakeFiles/cmTC_27de7.dir/CheckFunctionExists.c.o  -o cmTC_27de7 -lsocket 
+/usr/bin/ld: cannot find -lsocket
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_27de7.dir/build.make:86: recipe for target 'cmTC_27de7' failed
+make[1]: *** [cmTC_27de7] Error 1
+make[1]: Leaving directory '/home/core/CLionProjects/module/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_27de7/fast' failed
+make: *** [cmTC_27de7/fast] Error 2
+
+
+Determining if the function __inet_aton exists in the bind failed with the following output:
+Change Dir: /home/core/CLionProjects/module/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7ad42/fast 
+/usr/bin/make -f CMakeFiles/cmTC_7ad42.dir/build.make CMakeFiles/cmTC_7ad42.dir/build
+make[1]: Entering directory '/home/core/CLionProjects/module/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7ad42.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=__inet_aton   -std=gnu99 -o CMakeFiles/cmTC_7ad42.dir/CheckFunctionExists.c.o   -c /home/core/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.6707.69/bin/cmake/linux/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7ad42
+/home/core/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.6707.69/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ad42.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=__inet_aton    CMakeFiles/cmTC_7ad42.dir/CheckFunctionExists.c.o  -o cmTC_7ad42 -lbind 
+/usr/bin/ld: cannot find -lbind
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_7ad42.dir/build.make:86: recipe for target 'cmTC_7ad42' failed
+make[1]: *** [cmTC_7ad42] Error 1
+make[1]: Leaving directory '/home/core/CLionProjects/module/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_7ad42/fast' failed
+make: *** [cmTC_7ad42/fast] Error 2
+
+
+Determining if files sys/types.h;sys/event.h exist failed with the following output:
+Change Dir: /home/core/CLionProjects/module/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3c221/fast 
+/usr/bin/make -f CMakeFiles/cmTC_3c221.dir/build.make CMakeFiles/cmTC_3c221.dir/build
+make[1]: Entering directory '/home/core/CLionProjects/module/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3c221.dir/HAVE_SYS_EVENT_H.c.o
+/usr/bin/cc   -std=gnu99 -o CMakeFiles/cmTC_3c221.dir/HAVE_SYS_EVENT_H.c.o   -c /home/core/CLionProjects/module/CMakeFiles/CheckIncludeFiles/HAVE_SYS_EVENT_H.c
+/home/core/CLionProjects/module/CMakeFiles/CheckIncludeFiles/HAVE_SYS_EVENT_H.c:3:10: fatal error: sys/event.h: No such file or directory
+ #include <sys/event.h>
+          ^~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_3c221.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_3c221.dir/HAVE_SYS_EVENT_H.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_3c221.dir/HAVE_SYS_EVENT_H.c.o] Error 1
+make[1]: Leaving directory '/home/core/CLionProjects/module/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_3c221/fast' failed
+make: *** [cmTC_3c221/fast] Error 2
+
+Source:
+/* */
+#include <sys/types.h>
+#include <sys/event.h>
+
+
+int main(void){return 0;}
+
+Determining if the include file windows.h exists failed with the following output:
+Change Dir: /home/core/CLionProjects/module/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_105f0/fast 
+/usr/bin/make -f CMakeFiles/cmTC_105f0.dir/build.make CMakeFiles/cmTC_105f0.dir/build
+make[1]: Entering directory '/home/core/CLionProjects/module/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_105f0.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_105f0.dir/CheckIncludeFile.cxx.o -c /home/core/CLionProjects/module/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+/home/core/CLionProjects/module/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: windows.h: No such file or directory
+ #include <windows.h>
+          ^~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_105f0.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_105f0.dir/CheckIncludeFile.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_105f0.dir/CheckIncludeFile.cxx.o] Error 1
+make[1]: Leaving directory '/home/core/CLionProjects/module/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_105f0/fast' failed
+make: *** [cmTC_105f0/fast] Error 2
+
+
+Determining if the include file winsock2.h exists failed with the following output:
+Change Dir: /home/core/CLionProjects/module/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_88632/fast 
+/usr/bin/make -f CMakeFiles/cmTC_88632.dir/build.make CMakeFiles/cmTC_88632.dir/build
+make[1]: Entering directory '/home/core/CLionProjects/module/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_88632.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_88632.dir/CheckIncludeFile.cxx.o -c /home/core/CLionProjects/module/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+/home/core/CLionProjects/module/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: winsock2.h: No such file or directory
+ #include <winsock2.h>
+          ^~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_88632.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_88632.dir/CheckIncludeFile.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_88632.dir/CheckIncludeFile.cxx.o] Error 1
+make[1]: Leaving directory '/home/core/CLionProjects/module/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_88632/fast' failed
+make: *** [cmTC_88632/fast] Error 2
+
+
+Determining if the include file ws2tcpip.h exists failed with the following output:
+Change Dir: /home/core/CLionProjects/module/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c4ea0/fast 
+/usr/bin/make -f CMakeFiles/cmTC_c4ea0.dir/build.make CMakeFiles/cmTC_c4ea0.dir/build
+make[1]: Entering directory '/home/core/CLionProjects/module/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c4ea0.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_c4ea0.dir/CheckIncludeFile.cxx.o -c /home/core/CLionProjects/module/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+/home/core/CLionProjects/module/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: ws2tcpip.h: No such file or directory
+ #include <ws2tcpip.h>
+          ^~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_c4ea0.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_c4ea0.dir/CheckIncludeFile.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_c4ea0.dir/CheckIncludeFile.cxx.o] Error 1
+make[1]: Leaving directory '/home/core/CLionProjects/module/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_c4ea0/fast' failed
+make: *** [cmTC_c4ea0/fast] Error 2
+
+
+Determining if the include file process.h exists failed with the following output:
+Change Dir: /home/core/CLionProjects/module/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_90d90/fast 
+/usr/bin/make -f CMakeFiles/cmTC_90d90.dir/build.make CMakeFiles/cmTC_90d90.dir/build
+make[1]: Entering directory '/home/core/CLionProjects/module/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_90d90.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_90d90.dir/CheckIncludeFile.cxx.o -c /home/core/CLionProjects/module/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+/home/core/CLionProjects/module/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: process.h: No such file or directory
+ #include <process.h>
+          ^~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_90d90.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_90d90.dir/CheckIncludeFile.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_90d90.dir/CheckIncludeFile.cxx.o] Error 1
+make[1]: Leaving directory '/home/core/CLionProjects/module/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_90d90/fast' failed
+make: *** [cmTC_90d90/fast] Error 2
+
+
+Determining if the include file dir.h exists failed with the following output:
+Change Dir: /home/core/CLionProjects/module/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_287b8/fast 
+/usr/bin/make -f CMakeFiles/cmTC_287b8.dir/build.make CMakeFiles/cmTC_287b8.dir/build
+make[1]: Entering directory '/home/core/CLionProjects/module/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_287b8.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_287b8.dir/CheckIncludeFile.cxx.o -c /home/core/CLionProjects/module/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+/home/core/CLionProjects/module/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: dir.h: No such file or directory
+ #include <dir.h>
+          ^~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_287b8.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_287b8.dir/CheckIncludeFile.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_287b8.dir/CheckIncludeFile.cxx.o] Error 1
+make[1]: Leaving directory '/home/core/CLionProjects/module/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_287b8/fast' failed
+make: *** [cmTC_287b8/fast] Error 2
+
+
+Determining if the include file direct.h exists failed with the following output:
+Change Dir: /home/core/CLionProjects/module/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_33467/fast 
+/usr/bin/make -f CMakeFiles/cmTC_33467.dir/build.make CMakeFiles/cmTC_33467.dir/build
+make[1]: Entering directory '/home/core/CLionProjects/module/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_33467.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_33467.dir/CheckIncludeFile.cxx.o -c /home/core/CLionProjects/module/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+/home/core/CLionProjects/module/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: direct.h: No such file or directory
+ #include <direct.h>
+          ^~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_33467.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_33467.dir/CheckIncludeFile.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_33467.dir/CheckIncludeFile.cxx.o] Error 1
+make[1]: Leaving directory '/home/core/CLionProjects/module/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_33467/fast' failed
+make: *** [cmTC_33467/fast] Error 2
+
+
+Determining if the include file ndir.h exists failed with the following output:
+Change Dir: /home/core/CLionProjects/module/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_808cb/fast 
+/usr/bin/make -f CMakeFiles/cmTC_808cb.dir/build.make CMakeFiles/cmTC_808cb.dir/build
+make[1]: Entering directory '/home/core/CLionProjects/module/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_808cb.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_808cb.dir/CheckIncludeFile.cxx.o -c /home/core/CLionProjects/module/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+/home/core/CLionProjects/module/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: ndir.h: No such file or directory
+ #include <ndir.h>
+          ^~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_808cb.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_808cb.dir/CheckIncludeFile.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_808cb.dir/CheckIncludeFile.cxx.o] Error 1
+make[1]: Leaving directory '/home/core/CLionProjects/module/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_808cb/fast' failed
+make: *** [cmTC_808cb/fast] Error 2
+
+
+Determining if the include file sys/ndir.h exists failed with the following output:
+Change Dir: /home/core/CLionProjects/module/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_06943/fast 
+/usr/bin/make -f CMakeFiles/cmTC_06943.dir/build.make CMakeFiles/cmTC_06943.dir/build
+make[1]: Entering directory '/home/core/CLionProjects/module/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_06943.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_06943.dir/CheckIncludeFile.cxx.o -c /home/core/CLionProjects/module/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+/home/core/CLionProjects/module/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: sys/ndir.h: No such file or directory
+ #include <sys/ndir.h>
+          ^~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_06943.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_06943.dir/CheckIncludeFile.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_06943.dir/CheckIncludeFile.cxx.o] Error 1
+make[1]: Leaving directory '/home/core/CLionProjects/module/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_06943/fast' failed
+make: *** [cmTC_06943/fast] Error 2
+
+
+Determining if the function kqueue exists failed with the following output:
+Change Dir: /home/core/CLionProjects/module/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1eedb/fast 
+/usr/bin/make -f CMakeFiles/cmTC_1eedb.dir/build.make CMakeFiles/cmTC_1eedb.dir/build
+make[1]: Entering directory '/home/core/CLionProjects/module/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1eedb.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=kqueue   -std=gnu99 -o CMakeFiles/cmTC_1eedb.dir/CheckFunctionExists.c.o   -c /home/core/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.6707.69/bin/cmake/linux/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1eedb
+/home/core/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.6707.69/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1eedb.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=kqueue    CMakeFiles/cmTC_1eedb.dir/CheckFunctionExists.c.o  -o cmTC_1eedb -lnsl -lresolv 
+CMakeFiles/cmTC_1eedb.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `kqueue'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_1eedb.dir/build.make:86: recipe for target 'cmTC_1eedb' failed
+make[1]: *** [cmTC_1eedb] Error 1
+make[1]: Leaving directory '/home/core/CLionProjects/module/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_1eedb/fast' failed
+make: *** [cmTC_1eedb/fast] Error 2
+
+
+Determining if the function _mkdir exists failed with the following output:
+Change Dir: /home/core/CLionProjects/module/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3a88c/fast 
+/usr/bin/make -f CMakeFiles/cmTC_3a88c.dir/build.make CMakeFiles/cmTC_3a88c.dir/build
+make[1]: Entering directory '/home/core/CLionProjects/module/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3a88c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_mkdir   -std=gnu99 -o CMakeFiles/cmTC_3a88c.dir/CheckFunctionExists.c.o   -c /home/core/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.6707.69/bin/cmake/linux/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3a88c
+/home/core/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.6707.69/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3a88c.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=_mkdir    CMakeFiles/cmTC_3a88c.dir/CheckFunctionExists.c.o  -o cmTC_3a88c -lnsl -lresolv 
+CMakeFiles/cmTC_3a88c.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `_mkdir'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_3a88c.dir/build.make:86: recipe for target 'cmTC_3a88c' failed
+make[1]: *** [cmTC_3a88c] Error 1
+make[1]: Leaving directory '/home/core/CLionProjects/module/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_3a88c/fast' failed
+make: *** [cmTC_3a88c/fast] Error 2
+
+
+Determining if the function stricmp exists failed with the following output:
+Change Dir: /home/core/CLionProjects/module/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_22e0e/fast 
+/usr/bin/make -f CMakeFiles/cmTC_22e0e.dir/build.make CMakeFiles/cmTC_22e0e.dir/build
+make[1]: Entering directory '/home/core/CLionProjects/module/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_22e0e.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=stricmp   -std=gnu99 -o CMakeFiles/cmTC_22e0e.dir/CheckFunctionExists.c.o   -c /home/core/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.6707.69/bin/cmake/linux/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_22e0e
+/home/core/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.6707.69/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22e0e.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=stricmp    CMakeFiles/cmTC_22e0e.dir/CheckFunctionExists.c.o  -o cmTC_22e0e -lnsl -lresolv 
+CMakeFiles/cmTC_22e0e.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `stricmp'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_22e0e.dir/build.make:86: recipe for target 'cmTC_22e0e' failed
+make[1]: *** [cmTC_22e0e] Error 1
+make[1]: Leaving directory '/home/core/CLionProjects/module/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_22e0e/fast' failed
+make: *** [cmTC_22e0e/fast] Error 2
+
+
+Determining if the function strnicmp exists failed with the following output:
+Change Dir: /home/core/CLionProjects/module/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f419c/fast 
+/usr/bin/make -f CMakeFiles/cmTC_f419c.dir/build.make CMakeFiles/cmTC_f419c.dir/build
+make[1]: Entering directory '/home/core/CLionProjects/module/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f419c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strnicmp   -std=gnu99 -o CMakeFiles/cmTC_f419c.dir/CheckFunctionExists.c.o   -c /home/core/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.6707.69/bin/cmake/linux/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f419c
+/home/core/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.6707.69/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f419c.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strnicmp    CMakeFiles/cmTC_f419c.dir/CheckFunctionExists.c.o  -o cmTC_f419c -lnsl -lresolv 
+CMakeFiles/cmTC_f419c.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `strnicmp'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_f419c.dir/build.make:86: recipe for target 'cmTC_f419c' failed
+make[1]: *** [cmTC_f419c] Error 1
+make[1]: Leaving directory '/home/core/CLionProjects/module/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_f419c/fast' failed
+make: *** [cmTC_f419c/fast] Error 2
+
+
+Determining if files  exist failed with the following output:
+Change Dir: /home/core/CLionProjects/module/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_89bdb/fast 
+/usr/bin/make -f CMakeFiles/cmTC_89bdb.dir/build.make CMakeFiles/cmTC_89bdb.dir/build
+make[1]: Entering directory '/home/core/CLionProjects/module/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_89bdb.dir/CheckMkdirArgs.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_89bdb.dir/CheckMkdirArgs.cxx.o -c /home/core/CLionProjects/module/CMakeFiles/CMakeTmp/CheckMkdirArgs.cxx
+/home/core/CLionProjects/module/CMakeFiles/CMakeTmp/CheckMkdirArgs.cxx:3:9: fatal error: direct.h: No such file or directory
+ #include<direct.h>
+         ^~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_89bdb.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_89bdb.dir/CheckMkdirArgs.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_89bdb.dir/CheckMkdirArgs.cxx.o] Error 1
+make[1]: Leaving directory '/home/core/CLionProjects/module/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_89bdb/fast' failed
+make: *** [cmTC_89bdb/fast] Error 2
+
+Source:
+/* */
+
+#include<direct.h>
+int main(){mkdir("");}
+
+Determining if files  exist failed with the following output:
+Change Dir: /home/core/CLionProjects/module/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7f9bc/fast 
+/usr/bin/make -f CMakeFiles/cmTC_7f9bc.dir/build.make CMakeFiles/cmTC_7f9bc.dir/build
+make[1]: Entering directory '/home/core/CLionProjects/module/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7f9bc.dir/CheckMkdirArgs.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_7f9bc.dir/CheckMkdirArgs.cxx.o -c /home/core/CLionProjects/module/CMakeFiles/CMakeTmp/CheckMkdirArgs.cxx
+/home/core/CLionProjects/module/CMakeFiles/CMakeTmp/CheckMkdirArgs.cxx:3:9: fatal error: direct.h: No such file or directory
+ #include<direct.h>
+         ^~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_7f9bc.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_7f9bc.dir/CheckMkdirArgs.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_7f9bc.dir/CheckMkdirArgs.cxx.o] Error 1
+make[1]: Leaving directory '/home/core/CLionProjects/module/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_7f9bc/fast' failed
+make: *** [cmTC_7f9bc/fast] Error 2
+
+Source:
+/* */
+
+#include<direct.h>
+int main(){mkdir("");}
+
+Determining if files  exist failed with the following output:
+Change Dir: /home/core/CLionProjects/module/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7fdea/fast 
+/usr/bin/make -f CMakeFiles/cmTC_7fdea.dir/build.make CMakeFiles/cmTC_7fdea.dir/build
+make[1]: Entering directory '/home/core/CLionProjects/module/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7fdea.dir/CheckMkdirArgs.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_7fdea.dir/CheckMkdirArgs.cxx.o -c /home/core/CLionProjects/module/CMakeFiles/CMakeTmp/CheckMkdirArgs.cxx
+/home/core/CLionProjects/module/CMakeFiles/CMakeTmp/CheckMkdirArgs.cxx:3:9: fatal error: direct.h: No such file or directory
+ #include<direct.h>
+         ^~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_7fdea.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_7fdea.dir/CheckMkdirArgs.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_7fdea.dir/CheckMkdirArgs.cxx.o] Error 1
+make[1]: Leaving directory '/home/core/CLionProjects/module/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_7fdea/fast' failed
+make: *** [cmTC_7fdea/fast] Error 2
+
+Source:
+/* */
+
+#include<direct.h>
+int main(){mkdir("");}
+
+Determining if files  exist failed with the following output:
+Change Dir: /home/core/CLionProjects/module/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_68cdc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_68cdc.dir/build.make CMakeFiles/cmTC_68cdc.dir/build
+make[1]: Entering directory '/home/core/CLionProjects/module/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_68cdc.dir/CheckMkdirArgs.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_68cdc.dir/CheckMkdirArgs.cxx.o -c /home/core/CLionProjects/module/CMakeFiles/CMakeTmp/CheckMkdirArgs.cxx
+/home/core/CLionProjects/module/CMakeFiles/CMakeTmp/CheckMkdirArgs.cxx:3:9: fatal error: direct.h: No such file or directory
+ #include<direct.h>
+         ^~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_68cdc.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_68cdc.dir/CheckMkdirArgs.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_68cdc.dir/CheckMkdirArgs.cxx.o] Error 1
+make[1]: Leaving directory '/home/core/CLionProjects/module/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_68cdc/fast' failed
+make: *** [cmTC_68cdc/fast] Error 2
+
+Source:
+/* */
+
+#include<direct.h>
+int main(){mkdir("");}
+
+Determining if files  exist failed with the following output:
+Change Dir: /home/core/CLionProjects/module/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3c3c4/fast 
+/usr/bin/make -f CMakeFiles/cmTC_3c3c4.dir/build.make CMakeFiles/cmTC_3c3c4.dir/build
+make[1]: Entering directory '/home/core/CLionProjects/module/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3c3c4.dir/CheckMkdirArgs.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_3c3c4.dir/CheckMkdirArgs.cxx.o -c /home/core/CLionProjects/module/CMakeFiles/CMakeTmp/CheckMkdirArgs.cxx
+/home/core/CLionProjects/module/CMakeFiles/CMakeTmp/CheckMkdirArgs.cxx:3:9: fatal error: direct.h: No such file or directory
+ #include<direct.h>
+         ^~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_3c3c4.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_3c3c4.dir/CheckMkdirArgs.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_3c3c4.dir/CheckMkdirArgs.cxx.o] Error 1
+make[1]: Leaving directory '/home/core/CLionProjects/module/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_3c3c4/fast' failed
+make: *** [cmTC_3c3c4/fast] Error 2
+
+Source:
+/* */
+
+#include<direct.h>
+int main(){mkdir("");}
+
+Determining if files  exist failed with the following output:
+Change Dir: /home/core/CLionProjects/module/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dc62a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dc62a.dir/build.make CMakeFiles/cmTC_dc62a.dir/build
+make[1]: Entering directory '/home/core/CLionProjects/module/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_dc62a.dir/CheckMkdirArgs.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_dc62a.dir/CheckMkdirArgs.cxx.o -c /home/core/CLionProjects/module/CMakeFiles/CMakeTmp/CheckMkdirArgs.cxx
+/home/core/CLionProjects/module/CMakeFiles/CMakeTmp/CheckMkdirArgs.cxx:3:9: fatal error: direct.h: No such file or directory
+ #include<direct.h>
+         ^~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_dc62a.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_dc62a.dir/CheckMkdirArgs.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_dc62a.dir/CheckMkdirArgs.cxx.o] Error 1
+make[1]: Leaving directory '/home/core/CLionProjects/module/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_dc62a/fast' failed
+make: *** [cmTC_dc62a/fast] Error 2
+
+Source:
+/* */
+
+#include<direct.h>
+int main(){mkdir("");}
+
+Determining if files  exist failed with the following output:
+Change Dir: /home/core/CLionProjects/module/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_821a1/fast 
+/usr/bin/make -f CMakeFiles/cmTC_821a1.dir/build.make CMakeFiles/cmTC_821a1.dir/build
+make[1]: Entering directory '/home/core/CLionProjects/module/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_821a1.dir/CheckMkdirArgs.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_821a1.dir/CheckMkdirArgs.cxx.o -c /home/core/CLionProjects/module/CMakeFiles/CMakeTmp/CheckMkdirArgs.cxx
+/home/core/CLionProjects/module/CMakeFiles/CMakeTmp/CheckMkdirArgs.cxx:3:9: fatal error: direct.h: No such file or directory
+ #include<direct.h>
+         ^~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_821a1.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_821a1.dir/CheckMkdirArgs.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_821a1.dir/CheckMkdirArgs.cxx.o] Error 1
+make[1]: Leaving directory '/home/core/CLionProjects/module/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_821a1/fast' failed
+make: *** [cmTC_821a1/fast] Error 2
+
+Source:
+/* */
+
+#include<direct.h>
+int main(){mkdir("");}
+
+Determining if files  exist failed with the following output:
+Change Dir: /home/core/CLionProjects/module/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7d52a/fast 
+/usr/bin/make -f CMakeFiles/cmTC_7d52a.dir/build.make CMakeFiles/cmTC_7d52a.dir/build
+make[1]: Entering directory '/home/core/CLionProjects/module/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7d52a.dir/CheckMkdirArgs.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_7d52a.dir/CheckMkdirArgs.cxx.o -c /home/core/CLionProjects/module/CMakeFiles/CMakeTmp/CheckMkdirArgs.cxx
+/home/core/CLionProjects/module/CMakeFiles/CMakeTmp/CheckMkdirArgs.cxx:3:9: fatal error: direct.h: No such file or directory
+ #include<direct.h>
+         ^~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_7d52a.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_7d52a.dir/CheckMkdirArgs.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_7d52a.dir/CheckMkdirArgs.cxx.o] Error 1
+make[1]: Leaving directory '/home/core/CLionProjects/module/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_7d52a/fast' failed
+make: *** [cmTC_7d52a/fast] Error 2
+
+Source:
+/* */
+
+#include<direct.h>
+int main(){mkdir("");}
+
+Determining if files  exist failed with the following output:
+Change Dir: /home/core/CLionProjects/module/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b1a51/fast 
+/usr/bin/make -f CMakeFiles/cmTC_b1a51.dir/build.make CMakeFiles/cmTC_b1a51.dir/build
+make[1]: Entering directory '/home/core/CLionProjects/module/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b1a51.dir/CheckMkdirArgs.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_b1a51.dir/CheckMkdirArgs.cxx.o -c /home/core/CLionProjects/module/CMakeFiles/CMakeTmp/CheckMkdirArgs.cxx
+/home/core/CLionProjects/module/CMakeFiles/CMakeTmp/CheckMkdirArgs.cxx:3:9: fatal error: direct.h: No such file or directory
+ #include<direct.h>
+         ^~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_b1a51.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_b1a51.dir/CheckMkdirArgs.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_b1a51.dir/CheckMkdirArgs.cxx.o] Error 1
+make[1]: Leaving directory '/home/core/CLionProjects/module/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_b1a51/fast' failed
+make: *** [cmTC_b1a51/fast] Error 2
+
+Source:
+/* */
+
+#include<direct.h>
+int main(){mkdir("");}
+
+Determining if files  exist failed with the following output:
+Change Dir: /home/core/CLionProjects/module/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ced72/fast 
+/usr/bin/make -f CMakeFiles/cmTC_ced72.dir/build.make CMakeFiles/cmTC_ced72.dir/build
+make[1]: Entering directory '/home/core/CLionProjects/module/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ced72.dir/CheckMkdirArgs.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_ced72.dir/CheckMkdirArgs.cxx.o -c /home/core/CLionProjects/module/CMakeFiles/CMakeTmp/CheckMkdirArgs.cxx
+/home/core/CLionProjects/module/CMakeFiles/CMakeTmp/CheckMkdirArgs.cxx:3:9: fatal error: direct.h: No such file or directory
+ #include<direct.h>
+         ^~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_ced72.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_ced72.dir/CheckMkdirArgs.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_ced72.dir/CheckMkdirArgs.cxx.o] Error 1
+make[1]: Leaving directory '/home/core/CLionProjects/module/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_ced72/fast' failed
+make: *** [cmTC_ced72/fast] Error 2
+
+Source:
+/* */
+
+#include<direct.h>
+int main(){mkdir("");}
+
+Determining if files  exist failed with the following output:
+Change Dir: /home/core/CLionProjects/module/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_25ee9/fast 
+/usr/bin/make -f CMakeFiles/cmTC_25ee9.dir/build.make CMakeFiles/cmTC_25ee9.dir/build
+make[1]: Entering directory '/home/core/CLionProjects/module/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_25ee9.dir/CheckMkdirArgs.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_25ee9.dir/CheckMkdirArgs.cxx.o -c /home/core/CLionProjects/module/CMakeFiles/CMakeTmp/CheckMkdirArgs.cxx
+/home/core/CLionProjects/module/CMakeFiles/CMakeTmp/CheckMkdirArgs.cxx:3:9: fatal error: direct.h: No such file or directory
+ #include<direct.h>
+         ^~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_25ee9.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_25ee9.dir/CheckMkdirArgs.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_25ee9.dir/CheckMkdirArgs.cxx.o] Error 1
+make[1]: Leaving directory '/home/core/CLionProjects/module/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_25ee9/fast' failed
+make: *** [cmTC_25ee9/fast] Error 2
+
+Source:
+/* */
+
+#include<direct.h>
+int main(){mkdir("");}
+
+Determining if files  exist failed with the following output:
+Change Dir: /home/core/CLionProjects/module/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_86195/fast 
+/usr/bin/make -f CMakeFiles/cmTC_86195.dir/build.make CMakeFiles/cmTC_86195.dir/build
+make[1]: Entering directory '/home/core/CLionProjects/module/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_86195.dir/CheckMkdirArgs.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_86195.dir/CheckMkdirArgs.cxx.o -c /home/core/CLionProjects/module/CMakeFiles/CMakeTmp/CheckMkdirArgs.cxx
+/home/core/CLionProjects/module/CMakeFiles/CMakeTmp/CheckMkdirArgs.cxx:3:9: fatal error: direct.h: No such file or directory
+ #include<direct.h>
+         ^~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_86195.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_86195.dir/CheckMkdirArgs.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_86195.dir/CheckMkdirArgs.cxx.o] Error 1
+make[1]: Leaving directory '/home/core/CLionProjects/module/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_86195/fast' failed
+make: *** [cmTC_86195/fast] Error 2
+
+Source:
+/* */
+
+#include<direct.h>
+int main(){mkdir("");}
+
+Determining if files  exist failed with the following output:
+Change Dir: /home/core/CLionProjects/module/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_40bb4/fast 
+/usr/bin/make -f CMakeFiles/cmTC_40bb4.dir/build.make CMakeFiles/cmTC_40bb4.dir/build
+make[1]: Entering directory '/home/core/CLionProjects/module/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_40bb4.dir/CheckMkdirArgs.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_40bb4.dir/CheckMkdirArgs.cxx.o -c /home/core/CLionProjects/module/CMakeFiles/CMakeTmp/CheckMkdirArgs.cxx
+/home/core/CLionProjects/module/CMakeFiles/CMakeTmp/CheckMkdirArgs.cxx:3:9: fatal error: direct.h: No such file or directory
+ #include<direct.h>
+         ^~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_40bb4.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_40bb4.dir/CheckMkdirArgs.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_40bb4.dir/CheckMkdirArgs.cxx.o] Error 1
+make[1]: Leaving directory '/home/core/CLionProjects/module/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_40bb4/fast' failed
+make: *** [cmTC_40bb4/fast] Error 2
+
+Source:
+/* */
+
+#include<direct.h>
+int main(){mkdir("");}
+
+Determining if files  exist failed with the following output:
+Change Dir: /home/core/CLionProjects/module/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9aa95/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9aa95.dir/build.make CMakeFiles/cmTC_9aa95.dir/build
+make[1]: Entering directory '/home/core/CLionProjects/module/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9aa95.dir/CheckMkdirArgs.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_9aa95.dir/CheckMkdirArgs.cxx.o -c /home/core/CLionProjects/module/CMakeFiles/CMakeTmp/CheckMkdirArgs.cxx
+/home/core/CLionProjects/module/CMakeFiles/CMakeTmp/CheckMkdirArgs.cxx:3:9: fatal error: direct.h: No such file or directory
+ #include<direct.h>
+         ^~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_9aa95.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_9aa95.dir/CheckMkdirArgs.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_9aa95.dir/CheckMkdirArgs.cxx.o] Error 1
+make[1]: Leaving directory '/home/core/CLionProjects/module/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_9aa95/fast' failed
+make: *** [cmTC_9aa95/fast] Error 2
+
+Source:
+/* */
+
+#include<direct.h>
+int main(){mkdir("");}
+
+Determining if files  exist failed with the following output:
+Change Dir: /home/core/CLionProjects/module/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d960d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d960d.dir/build.make CMakeFiles/cmTC_d960d.dir/build
+make[1]: Entering directory '/home/core/CLionProjects/module/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d960d.dir/CheckMkdirArgs.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_d960d.dir/CheckMkdirArgs.cxx.o -c /home/core/CLionProjects/module/CMakeFiles/CMakeTmp/CheckMkdirArgs.cxx
+/home/core/CLionProjects/module/CMakeFiles/CMakeTmp/CheckMkdirArgs.cxx:3:9: fatal error: direct.h: No such file or directory
+ #include<direct.h>
+         ^~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_d960d.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_d960d.dir/CheckMkdirArgs.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_d960d.dir/CheckMkdirArgs.cxx.o] Error 1
+make[1]: Leaving directory '/home/core/CLionProjects/module/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d960d/fast' failed
+make: *** [cmTC_d960d/fast] Error 2
+
+Source:
+/* */
+
+#include<direct.h>
+int main(){mkdir("");}
+
+Determining if files  exist failed with the following output:
+Change Dir: /home/core/CLionProjects/module/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f0315/fast 
+/usr/bin/make -f CMakeFiles/cmTC_f0315.dir/build.make CMakeFiles/cmTC_f0315.dir/build
+make[1]: Entering directory '/home/core/CLionProjects/module/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f0315.dir/CheckMkdirArgs.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_f0315.dir/CheckMkdirArgs.cxx.o -c /home/core/CLionProjects/module/CMakeFiles/CMakeTmp/CheckMkdirArgs.cxx
+/home/core/CLionProjects/module/CMakeFiles/CMakeTmp/CheckMkdirArgs.cxx:3:9: fatal error: direct.h: No such file or directory
+ #include<direct.h>
+         ^~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_f0315.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_f0315.dir/CheckMkdirArgs.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_f0315.dir/CheckMkdirArgs.cxx.o] Error 1
+make[1]: Leaving directory '/home/core/CLionProjects/module/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_f0315/fast' failed
+make: *** [cmTC_f0315/fast] Error 2
+
+Source:
+/* */
+
+#include<direct.h>
+int main(){mkdir("");}
+
+Determining if files  exist failed with the following output:
+Change Dir: /home/core/CLionProjects/module/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_328f5/fast 
+/usr/bin/make -f CMakeFiles/cmTC_328f5.dir/build.make CMakeFiles/cmTC_328f5.dir/build
+make[1]: Entering directory '/home/core/CLionProjects/module/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_328f5.dir/CheckMkdirArgs.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_328f5.dir/CheckMkdirArgs.cxx.o -c /home/core/CLionProjects/module/CMakeFiles/CMakeTmp/CheckMkdirArgs.cxx
+/home/core/CLionProjects/module/CMakeFiles/CMakeTmp/CheckMkdirArgs.cxx:3:9: fatal error: direct.h: No such file or directory
+ #include<direct.h>
+         ^~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_328f5.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_328f5.dir/CheckMkdirArgs.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_328f5.dir/CheckMkdirArgs.cxx.o] Error 1
+make[1]: Leaving directory '/home/core/CLionProjects/module/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_328f5/fast' failed
+make: *** [cmTC_328f5/fast] Error 2
+
+Source:
+/* */
+
+#include<direct.h>
+int main(){mkdir("");}
+
+Determining if files  exist failed with the following output:
+Change Dir: /home/core/CLionProjects/module/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5f831/fast 
+/usr/bin/make -f CMakeFiles/cmTC_5f831.dir/build.make CMakeFiles/cmTC_5f831.dir/build
+make[1]: Entering directory '/home/core/CLionProjects/module/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5f831.dir/CheckMkdirArgs.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_5f831.dir/CheckMkdirArgs.cxx.o -c /home/core/CLionProjects/module/CMakeFiles/CMakeTmp/CheckMkdirArgs.cxx
+/home/core/CLionProjects/module/CMakeFiles/CMakeTmp/CheckMkdirArgs.cxx:3:9: fatal error: direct.h: No such file or directory
+ #include<direct.h>
+         ^~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_5f831.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_5f831.dir/CheckMkdirArgs.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_5f831.dir/CheckMkdirArgs.cxx.o] Error 1
+make[1]: Leaving directory '/home/core/CLionProjects/module/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_5f831/fast' failed
+make: *** [cmTC_5f831/fast] Error 2
+
+Source:
+/* */
+
+#include<direct.h>
+int main(){mkdir("");}
+
+Determining if files  exist failed with the following output:
+Change Dir: /home/core/CLionProjects/module/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c44a6/fast 
+/usr/bin/make -f CMakeFiles/cmTC_c44a6.dir/build.make CMakeFiles/cmTC_c44a6.dir/build
+make[1]: Entering directory '/home/core/CLionProjects/module/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c44a6.dir/CheckMkdirArgs.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_c44a6.dir/CheckMkdirArgs.cxx.o -c /home/core/CLionProjects/module/CMakeFiles/CMakeTmp/CheckMkdirArgs.cxx
+/home/core/CLionProjects/module/CMakeFiles/CMakeTmp/CheckMkdirArgs.cxx:3:9: fatal error: direct.h: No such file or directory
+ #include<direct.h>
+         ^~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_c44a6.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_c44a6.dir/CheckMkdirArgs.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_c44a6.dir/CheckMkdirArgs.cxx.o] Error 1
+make[1]: Leaving directory '/home/core/CLionProjects/module/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_c44a6/fast' failed
+make: *** [cmTC_c44a6/fast] Error 2
+
+Source:
+/* */
+
+#include<direct.h>
+int main(){mkdir("");}
+
